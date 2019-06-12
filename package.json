@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lintFix": "vue-cli-service lint --fix"
   },
   "dependencies": {
     "@philly/pinboard": "https://github.com/CityOfPhiladelphia/resource-finder#df98af6edf605e83dc66ad74f4e9b4b65e60b70c",
@@ -21,6 +22,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "lint-staged": "^8.2.0",
     "node-sass": "^4.12.0",
     "sass": "^1.21.0",
     "sass-loader": "^7.1.0",
