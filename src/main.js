@@ -5,14 +5,25 @@
 // (we might not need to use axios with new vue async tools)
 // if that is not needed, we can move this info to main.js
 
-// import pinboard 
+// import pinboard
 import pinboard from '@philly/pinboard/src/main.js';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
+var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@d3ad38f050cf55b4ab0dc2ff68e6f18025690246/config.js';
 
 pinboard({
-  baseConfig: null,
+  // baseConfig: null,
+  baseConfig: BASE_CONFIG_URL,
+  cyclomedia: {
+    enabled: false,
+    measurementAllowed: false,
+    popoutAble: true,
+    recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs',
+    username: process.env.VUE_APP_CYCLOMEDIA_USERNAME,
+    password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
+    apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
+  },
   dataSources: {
     immigrant,
   },
@@ -35,9 +46,13 @@ pinboard({
     },
   },
   map: {
+    defaultBasemap: 'pwd',
     center: [ -75.163471, 39.953338 ],
     zoom: 12,
     geocodeZoom: 15,
+    imagery: {
+      enabled: false,
+    },
     basemaps: {
       pwd: {
         url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
