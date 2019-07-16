@@ -10,7 +10,7 @@ import pinboard from '@philly/pinboard/src/main.js';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
-var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@d3ad38f050cf55b4ab0dc2ff68e6f18025690246/config.js';
+var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
 
 pinboard({
   // baseConfig: null,
@@ -55,7 +55,7 @@ pinboard({
     },
     basemaps: {
       pwd: {
-        url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
+        url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
         tiledLayers: [
           'cityBasemapLabels',
         ],
@@ -65,7 +65,7 @@ pinboard({
     },
     tiledLayers: {
       cityBasemapLabels: {
-        url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
+        url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
         zIndex: '3',
       },
     },
