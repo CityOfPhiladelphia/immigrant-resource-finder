@@ -9,9 +9,8 @@
     "lintFix": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "@philly/pinboard": "0.1.6",
+    "@philly/pinboard": "0.1.8",
     "core-js": "^2.6.5",
-    "foundation-sites": "^6.5.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {
