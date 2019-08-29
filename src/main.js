@@ -14,6 +14,11 @@ var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-d
 
 pinboard({
   // baseConfig: null,
+  locationSlots: {
+    title: function(state, item) {
+      return item.organization_name;
+    },
+  },
   baseConfig: BASE_CONFIG_URL,
   cyclomedia: {
     enabled: false,
@@ -34,6 +39,7 @@ pinboard({
     title: 'Immigrant resource finder',
     tagLine: 'Find resources for immigrants in the City',
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
+    type: 'immigrant',
   },
   geocoder: {
     url(input) {
