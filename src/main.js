@@ -36,8 +36,8 @@ pinboard({
     enabled: false,
   },
   app: {
-    title: 'Immigrant resource finder',
-    tagLine: 'Find resources for immigrants in the City',
+    title: 'Resources for immigrants',
+    tagLine: 'Find services and support for immigrants in Philadelphia',
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
