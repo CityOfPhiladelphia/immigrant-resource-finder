@@ -34,10 +34,10 @@ module.exports = {
   assetsDir: 'static',
   transpileDependencies: [
     // can be string or regex
-    '@philly/pinboard',
-    '@philly/vue-comps',
-    '@philly/vue-mapping',
-    '@philly/vue-datafetch',
+    '@phila/pinboard',
+    '@phila/vue-comps',
+    '@phila/vue-mapping',
+    '@phila/vue-datafetch',
     // /other-dep/
   ],
 
