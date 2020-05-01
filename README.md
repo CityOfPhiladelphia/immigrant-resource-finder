@@ -1,5 +1,7 @@
 # immigrant-resource-finder
 
+![Example](https://mapboard-images.s3.amazonaws.com/pinboard/immigrant-resource-finder.JPG)
+
 ## Project setup
 ```
 yarn install
