@@ -8,6 +8,8 @@
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
+import greeting from './general/greeting';
+
 // data-sources
 import immigrant from './data-sources/immigrant';
 var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
@@ -29,6 +31,7 @@ pinboard({
     password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
     apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
   },
+  greeting,
   dataSources: {
     immigrant,
   },
@@ -51,6 +54,7 @@ pinboard({
       include_units: true,
     },
   },
+  infoCircles: {},
   map: {
     defaultBasemap: 'pwd',
     center: [ -75.163471, 39.953338 ],
