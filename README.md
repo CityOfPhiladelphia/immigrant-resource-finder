@@ -1,6 +1,11 @@
 # immigrant-resource-finder
 
+This is the sourcecode for the [Resources for immigrants](http://phila-resource-finder.s3-website-us-east-1.amazonaws.com/immigrant/prod/#/) app.
+
+The app uses the framework [Pinboard](https://github.com/CityOfPhiladelphia/pinboard), in npm as [@phila/pinboard](https://www.npmjs.com/package/@phila/pinboard).
+
 ![Example](https://mapboard-images.s3.amazonaws.com/pinboard/immigrant-resource-finder.JPG)
+![Example](https://mapboard-images.s3.amazonaws.com/pinboard/phone-immigrant-resource-finder.JPG)
 
 ## Project setup
 ```
