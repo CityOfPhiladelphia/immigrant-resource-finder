@@ -15,13 +15,16 @@ import immigrant from './data-sources/immigrant';
 var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
 
 pinboard({
-  // baseConfig: null,
-  locationSlots: {
-    title: function(state, item) {
+  // app: {
+  //   title: 'Resources for immigrants',
+  //   subtitle: 'Find services and support for immigrants in Philadelphia',
+  // },
+  baseConfig: BASE_CONFIG_URL,
+  locationInfo: {
+    siteName: function(state, item) {
       return item.organization_name;
     },
   },
-  baseConfig: BASE_CONFIG_URL,
   cyclomedia: {
     enabled: false,
     measurementAllowed: false,
@@ -31,7 +34,6 @@ pinboard({
     password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
     apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
   },
-  greeting,
   dataSources: {
     immigrant,
   },
@@ -39,8 +41,8 @@ pinboard({
     enabled: false,
   },
   app: {
-    title: 'Immigrant resource finder',
-    tagLine: 'Find resources for immigrants in the City',
+    title: 'Resources for immigrants',
+    subtitle: 'Find services and support for immigrants in Philadelphia',
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
