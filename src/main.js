@@ -8,7 +8,7 @@
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
-// import greeting from './general/greeting';
+import greeting from './general/greeting';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
@@ -28,6 +28,7 @@ pinboard({
       'keyword',
     ],
   },
+  greeting,
   locationInfo: {
     siteName: 'organization_name',
   },
