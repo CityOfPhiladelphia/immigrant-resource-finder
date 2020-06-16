@@ -1,4 +1,5 @@
 module.exports = {
+  filenameHashing: false,
   publicPath: '/immigrant/dev/',
   chainWebpack: (config) => {
     config.resolve.symlinks(false);
