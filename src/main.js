@@ -22,6 +22,9 @@ pinboard({
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
+  gtag: {
+    category: 'rf-oia',
+  },
   comboSearch: {
     dropdown: [
       'address',
