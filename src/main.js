@@ -31,7 +31,7 @@ pinboard({
   gtag: {
     category: 'rf-oia',
   },
-  comboSearch: {
+  searchBar: {
     dropdown: [
       'address',
       'keyword',
