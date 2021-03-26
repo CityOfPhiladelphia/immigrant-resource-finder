@@ -1,6 +1,6 @@
 module.exports = {
   filenameHashing: false,
-  publicPath: '/oia/resource-finder/',
+  publicPath: '/immigrant/dev/',
   configureWebpack: {
     optimization: {
       splitChunks: {
@@ -50,6 +50,7 @@ module.exports = {
   transpileDependencies: [
     // can be string or regex
     '@phila/pinboard',
+    '@phila/phila-ui',
     // '@phila/vue-comps',
     '@phila/vue-mapping',
     '@phila/vue-datafetch',
