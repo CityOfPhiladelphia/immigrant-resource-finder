@@ -1,10 +1,5 @@
 module.exports = {
-<<<<<<< HEAD
   publicPath: process.env.VUE_APP_PUBLICPATH,
-=======
-  filenameHashing: false,
-  publicPath: '/immigrant/dev/',
->>>>>>> 73c2351 (changes site path)
   configureWebpack: {
     optimization: {
       splitChunks: {
