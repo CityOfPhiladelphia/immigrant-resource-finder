@@ -20,6 +20,12 @@ import greeting from './general/greeting';
 import immigrant from './data-sources/immigrant';
 // var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
 
+import customGreeting from './components/customGreeting.vue';
+const customComps = {
+  // 'expandCollapseContent': expandCollapseContent,
+  'customGreeting': customGreeting,
+};
+
 pinboard({
   // baseConfig: BASE_CONFIG_URL,
   app: {
@@ -41,6 +47,7 @@ pinboard({
   locationInfo: {
     siteName: 'organization_name',
   },
+  customComps,
   refine: {
     type: 'categoryField_array',
     value: function(item) {
