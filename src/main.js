@@ -43,6 +43,14 @@ pinboard({
       'address',
       'keyword',
     ],
+    labelText:  {
+      address: 'Search by address',
+      keyword: 'Search by keyword',
+    },
+    placeholderText: {
+      address: 'Search by address',
+      keyword: 'Search by keyword',
+    },
   },
   greeting,
   locationInfo: {
