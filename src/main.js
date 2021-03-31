@@ -31,6 +31,7 @@ pinboard({
   app: {
     title: 'Resources for immigrants',
     subtitle: 'Find services and support for immigrants in Philadelphia',
+    logoSrc: require('@/assets/oia-logo.png'),
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
