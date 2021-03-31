@@ -70,9 +70,32 @@ pinboard({
       include_units: true,
     },
   },
-  footer: {
-    'aboutFinder': false,
-  },
+  // footer: {
+  //   'aboutFinder': false,
+  // },
+  footer: [
+    {
+      type: "native",
+      href: "https://www.phila.gov/",
+      attrs: {
+        target: "_blank",
+      },
+      text: "cityOfPhiladelphia",
+    },
+    {
+      type: "native",
+      href: "#",
+      text: "about",
+    },
+    {
+      type: "native",
+      href: "https://www.phila.gov/feedback/",
+      attrs: {
+        target: "_blank",
+      },
+      text: "feedback",
+    },
+  ],
   cyclomedia: {
     enabled: false,
     // measurementAllowed: false,
