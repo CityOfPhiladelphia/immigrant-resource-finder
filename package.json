@@ -11,7 +11,7 @@
     "lintFix": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "@phila/pinboard": "https://github.com/CityOfPhiladelphia/pinboard#dbb175110ab264b886fdc994795d46dece70158b",
+    "@phila/pinboard": "https://github.com/CityOfPhiladelphia/pinboard#f49aaf4fdae49a7c42501dcc58640cecc0cbf954",
     "bulma": "^0.9.1",
     "core-js": "^3.3.3",
     "vue": "^2.6.10"
