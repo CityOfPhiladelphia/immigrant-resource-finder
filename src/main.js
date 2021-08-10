@@ -38,6 +38,7 @@ pinboard({
   gtag: {
     category: 'rf-oia',
   },
+  resetDataOnGeocode: true,
   searchBar: {
     dropdown: [
       'address',

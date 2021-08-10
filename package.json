@@ -9,7 +9,7 @@
     "lintFix": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "@phila/pinboard": "https://github.com/CityOfPhiladelphia/pinboard#094ff2c62995eb6c1a98be98730949e42205b3d2",
+    "@phila/pinboard": "https://github.com/CityOfPhiladelphia/pinboard#60d5af1f49b859ae01bbef8193af0154296262d2",
     "bulma": "^0.9.1",
     "core-js": "^3.3.3",
     "vue": "^2.6.10"
@@ -45,5 +45,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }
