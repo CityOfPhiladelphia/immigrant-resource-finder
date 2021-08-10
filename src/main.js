@@ -26,6 +26,7 @@ const customComps = {
   'customGreeting': customGreeting,
 };
 
+
 pinboard({
   // baseConfig: BASE_CONFIG_URL,
   app: {
