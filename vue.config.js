@@ -54,6 +54,7 @@ module.exports = {
     // '@phila/vue-comps',
     '@phila/vue-mapping',
     '@phila/vue-datafetch',
+    'fuse.js',
     // /other-dep/
   ],
 
