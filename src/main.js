@@ -5,6 +5,7 @@
 // (we might not need to use axios with new vue async tools)
 // if that is not needed, we can move this info to main.js
 
+
 // turn off console logging in production
 if (process.env.NODE_ENV === 'production') {
   console.log = console.info = console.debug = console.error = function () {};
