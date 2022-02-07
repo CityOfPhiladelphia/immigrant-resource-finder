@@ -15,7 +15,7 @@ console.log('main.js process.env.NODE_ENV:', process.env.NODE_ENV, 'process.env.
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
-import greeting from './general/greeting';
+// import greeting from './general/greeting';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
@@ -58,7 +58,7 @@ pinboard({
       keyword: 'Search by keyword',
     },
   },
-  greeting,
+  // greeting,
   locationInfo: {
     siteName: 'organization_name',
   },
