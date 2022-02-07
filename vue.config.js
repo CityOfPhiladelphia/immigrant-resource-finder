@@ -31,7 +31,7 @@ module.exports = {
   // //   },
   // // },
   // },
-  assetsDir: 'static',
+  // assetsDir: 'static',
   transpileDependencies: [
     // can be string or regex
     '@phila/pinboard',
