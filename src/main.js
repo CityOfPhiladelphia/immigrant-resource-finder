@@ -15,7 +15,7 @@ if (hostname !== 'localhost' && !hostname.match(/(\d+\.){3}\d+/)) {
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
-import greeting from './general/greeting';
+// import greeting from './general/greeting';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
@@ -58,7 +58,7 @@ pinboard({
       keyword: 'Search by keyword',
     },
   },
-  greeting,
+  // greeting,
   locationInfo: {
     siteName: 'organization_name',
   },

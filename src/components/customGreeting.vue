@@ -186,49 +186,4 @@ export default {
     padding-top: 20px;
   }
 
-  /* .greeting {
-    font-size: 20px;
-    color: #444;
-    padding: 14px;
-  } */
-
-  /* ul {
-    margin-bottom: 6px;
-  } */
-
-  /* h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 16px;
-  } */
-
-  /* .custom-greeting {
-    padding: 1rem;
-  } */
-
-  /* .greeting-error {
-    border-left-color: #ff0000;
-  } */
-
-  /* .custom-section {
-    margin-left: 8px;
-    margin-top: 4px;
-  } */
-
-  /* .custom-ul {
-    margin-left: 4rem;
-    font-size: 14px;
-  } */
-
-  /*medium*/
-  /*make this scroll on medium screens*/
-  /*REVIEW this is a little hacky. the 120px shouldn't be hard-coded.*/
-  /* @media screen and (min-width: 750px) {
-    .mb-panel-topics-greeting {
-      height: calc(100vh - 120px);
-      overflow: auto;
-    }
-  } */
 </style>
