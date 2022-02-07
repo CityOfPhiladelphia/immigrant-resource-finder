@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/oia/resource-finder/',
+  publicPath: process.env.VUE_APP_PUBLICPATH,
   chainWebpack: (config) => {
     config.resolve.symlinks(false);
   },
