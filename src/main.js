@@ -5,6 +5,7 @@
 // (we might not need to use axios with new vue async tools)
 // if that is not needed, we can move this info to main.js
 
+
 // turn off console logging in production
 if (process.env.NODE_ENV === 'production') {
   console.log = console.info = console.debug = console.error = function () {};
@@ -14,33 +15,54 @@ console.log('main.js process.env.NODE_ENV:', process.env.NODE_ENV, 'process.env.
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
-import greeting from './general/greeting';
+// import greeting from './general/greeting';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
 // var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
+
+import customGreeting from './components/customGreeting.vue';
+const customComps = {
+  // 'expandCollapseContent': expandCollapseContent,
+  'customGreeting': customGreeting,
+};
+
 
 pinboard({
   // baseConfig: BASE_CONFIG_URL,
   app: {
     title: 'Resources for immigrants',
     subtitle: 'Find services and support for immigrants in Philadelphia',
+    logoSrc: require('@/assets/oia-logo.png'),
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
   gtag: {
     category: 'rf-oia',
   },
-  comboSearch: {
+  resetDataOnGeocode: true,
+  addressInput: {
+    placeholder: 'Search by address or keyword',
+  },
+  searchBar: {
     dropdown: [
       'address',
       'keyword',
     ],
+    labelText:  {
+      address: 'Search by address',
+      keyword: 'Search by keyword',
+    },
+    placeholderText: {
+      address: 'Search by address',
+      keyword: 'Search by keyword',
+    },
   },
-  greeting,
+  // greeting,
   locationInfo: {
     siteName: 'organization_name',
   },
+  customComps,
   refine: {
     type: 'categoryField_array',
     value: function(item) {
@@ -62,9 +84,32 @@ pinboard({
       include_units: true,
     },
   },
-  footer: {
-    'aboutFinder': false,
-  },
+  // footer: {
+  //   'aboutFinder': false,
+  // },
+  footer: [
+    {
+      type: "native",
+      href: "https://www.phila.gov/",
+      attrs: {
+        target: "_blank",
+      },
+      text: "City of Philadelphia",
+    },
+    {
+      type: "native",
+      href: "/oia/resource-finder",
+      text: "About",
+    },
+    {
+      type: "native",
+      href: "https://www.phila.gov/feedback/",
+      attrs: {
+        target: "_blank",
+      },
+      text: "Feedback",
+    },
+  ],
   cyclomedia: {
     enabled: false,
     // measurementAllowed: false,
