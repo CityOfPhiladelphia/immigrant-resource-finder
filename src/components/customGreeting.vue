@@ -13,17 +13,21 @@
     <div
       class="main-area"
     >
-      <h3>About this finder</h3>
-      <p>This tool can help you find organizations that offer immigrant-focused services in Philadelphia. You can:</p>
-      <div class="callout">
-        <ul>
-          <li>Browse the list of organizations.</li>
-          <li>Search by address or keyword.</li>
-          <li>Filter your results by service type.</li>
-        </ul>
+      <div class="greeting-section">
+        <h3>About this finder</h3>
+        <p>This tool can help you find organizations that offer immigrant-focused services in Philadelphia. You can:</p>
+        <div class="callout">
+          <ul>
+            <li>Browse the list of organizations.</li>
+            <li>Search by address or keyword.</li>
+            <li>Filter your results by service type.</li>
+          </ul>
+        </div>
       </div>
-      <h3>Adding your organization</h3>
-      <p>Does your organization offer services for immigrants? Contact the Office of Immigrant Affairs at <a href="mailto:OIA@phila.gov">OIA@phila.gov</a> to learn how to be added to this finder.</p>
+      <div class="greeting-section">
+        <h3>Adding your organization</h3>
+        <p>Does your organization offer services for immigrants? Contact the Office of Immigrant Affairs at <a href="mailto:OIA@phila.gov">OIA@phila.gov</a> to learn how to be added to this finder.</p>
+      </div>
     </div> <!-- end of main-area -->
   </div>
 </template>
@@ -152,6 +156,10 @@ export default {
 
   .main-area {
     /* padding: 1rem; */
+  }
+
+  .greeting-section {
+    margin-bottom: 1rem;
   }
 
   .container {
