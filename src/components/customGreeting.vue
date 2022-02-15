@@ -154,29 +154,33 @@ export default {
 
 <style scoped>
 
-  .main-area {
-    /* padding: 1rem; */
-  }
-
-  .greeting-section {
+  /* .greeting-section {
     margin-bottom: 1rem;
-  }
+  } */
+
+  /* .custom-callout {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+  } */
 
   .container {
     margin-bottom: 1rem;
   }
 
-  .custom-callout {
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
+  .list-div {
+    margin-bottom: 1rem;
   }
 
   .open-list-button {
     text-transform: uppercase;
   }
 
-  .exclamation-holder {
+  .custom-greeting {
+    padding: 2rem;
+  }
+
+  /* .exclamation-holder {
     padding: 1rem;
     margin-bottom: 0px;
   }
@@ -192,6 +196,6 @@ export default {
 
   .mb-panel-topics-greeting {
     padding-top: 20px;
-  }
+  } */
 
 </style>

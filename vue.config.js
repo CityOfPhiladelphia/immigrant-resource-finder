@@ -27,9 +27,9 @@ module.exports = {
     loaderOptions: {
       sass: {
         data: `
+          @import "~@phila/phila-ui/src/assets/styles/scss/helpers.scss";
           @import "~@phila/phila-ui/src/assets/styles/scss/functions.scss";
           @import "~@phila/phila-ui/src/assets/styles/scss/colors.scss";
-          @import "~@phila/phila-ui/src/assets/styles/scss/variables.scss";
         `,
         sourceMap: true,
       },
