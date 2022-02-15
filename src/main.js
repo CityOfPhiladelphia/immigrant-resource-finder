@@ -41,11 +41,12 @@ pinboard({
     category: 'rf-oia',
   },
   resetDataOnGeocode: true,
-  addressInput: {
-    placeholder: 'Search by address or keyword',
-  },
+  // addressInput: {
+  //   placeholder: 'Search by address or keyword',
+  // },
   searchBar: {
-    dropdown: [
+    placeholder: 'Search by address or keyword',
+    searchTypes: [
       'address',
       'keyword',
     ],
