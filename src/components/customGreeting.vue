@@ -152,7 +152,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+@import "../../node_modules/@phila/pinboard/src/assets/scss/customGreeting.scss";
+
 
   /* .greeting-section {
     margin-bottom: 1rem;
