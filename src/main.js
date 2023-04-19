@@ -35,6 +35,7 @@ const customComps = {
 
 
 pinboard({
+  publicPath: process.env.VUE_APP_PUBLICPATH,
   app: {
     title: 'Resources for immigrants',
     subtitle: 'Find services and support for immigrants in Philadelphia',
