@@ -124,7 +124,17 @@ pinboard({
     // password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
     // apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
   },
-  markerType: 'pin-marker',
+  // markerType: 'pin-marker',
+  markerType: 'circle-marker',
+  circleMarkers: {
+    color: '#9400c6',
+    borderColor: 'white',
+    weight: 1,
+    radius: 8,
+    mobileRadius: 12,
+    size: 16,
+    mobileSize: 20,
+  },
   map: {
     type: 'mapbox',
     // tiles: 'hosted',
