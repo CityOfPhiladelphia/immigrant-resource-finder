@@ -25,21 +25,17 @@ library.add(farAngleDown, farAngleUp, farTimes, farPlus, farMinus);
 // import pinboard
 import pinboard from '@phila/pinboard/src/main.js';
 
-// import greeting from './general/greeting';
-
 // data-sources
 import immigrant from './data-sources/immigrant';
-// var BASE_CONFIG_URL = 'https://cdn.jsdelivr.net/gh/cityofphiladelphia/mapboard-default-base-config@6126861722cee9384694742363d1661e771493b9/config.js';
 
 import customGreeting from './components/customGreeting.vue';
 const customComps = {
-  // 'expandCollapseContent': expandCollapseContent,
   'customGreeting': customGreeting,
 };
 
 
 pinboard({
-  // baseConfig: BASE_CONFIG_URL,
+  publicPath: process.env.VUE_APP_PUBLICPATH,
   app: {
     title: 'Resources for immigrants',
     subtitle: 'Find services and support for immigrants in Philadelphia',
@@ -50,10 +46,12 @@ pinboard({
   gtag: {
     category: 'rf-oia',
   },
+  printView: false,
+  allowPrint: true,
+  showBuffers: true,
   resetDataOnGeocode: true,
-  // addressInput: {
-  //   placeholder: 'Search by address or keyword',
-  // },
+  retractableRefine: false,
+  dropdownRefine: false,
   searchBar: {
     placeholder: 'Search by address or keyword',
     searchTypes: [
@@ -69,7 +67,6 @@ pinboard({
       keyword: 'Search by keyword',
     },
   },
-  // greeting,
   locationInfo: {
     siteName: 'organization_name',
   },
@@ -95,9 +92,6 @@ pinboard({
       include_units: true,
     },
   },
-  // footer: {
-  //   'aboutFinder': false,
-  // },
   footer: [
     {
       type: "native",
@@ -130,13 +124,26 @@ pinboard({
     // password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
     // apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
   },
-  markerType: 'pin-marker',
+  // markerType: 'pin-marker',
+  markerType: 'circle-marker',
+  circleMarkers: {
+    color: '#9400c6',
+    borderColor: 'white',
+    weight: 1,
+    radius: 8,
+    mobileRadius: 12,
+    size: 16,
+    mobileSize: 20,
+  },
   map: {
     type: 'mapbox',
     // tiles: 'hosted',
     containerClass: 'map-container',
     defaultBasemap: 'pwd',
     center: [ -75.163471, 39.953338 ],
+    minZoom: 11,
+    maxZoom: 25,
+    shouldInitialize: true,
     zoom: 12,
     geocodeZoom: 15,
     imagery: {
