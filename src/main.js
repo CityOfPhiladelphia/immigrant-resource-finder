@@ -5,7 +5,6 @@
 // (we might not need to use axios with new vue async tools)
 // if that is not needed, we can move this info to main.js
 
-
 // turn off console logging in production
 if (process.env.NODE_ENV === 'production') {
   console.log = console.info = console.debug = console.error = function () {};
@@ -36,12 +35,15 @@ const customComps = {
   'expandCollapseContent': expandCollapseContent,
 };
 
+import i18n from './i18n/i18n';
+console.log('main.js i18n:', i18n);
 
 pinboard({
   publicPath: process.env.VUE_APP_PUBLICPATH,
+  i18n: i18n.i18n,
   app: {
-    title: 'Resources for immigrants',
-    subtitle: 'Find services and support for immigrants in Philadelphia',
+    // title: 'Resources for immigrants',
+    // subtitle: 'Find services and support for immigrants in Philadelphia',
     logoSrc: require('@/assets/oia-logo.png'),
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
