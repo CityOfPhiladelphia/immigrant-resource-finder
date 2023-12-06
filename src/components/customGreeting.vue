@@ -19,21 +19,8 @@
           {{ $t('introPage.section1Title') }}
         </h3>
 
-        <!-- <p>This tool can help you find organizations that offer immigrant-focused services in Philadelphia. You can:</p> -->
         <p v-html="$t('introPage.p0')" />
 
-        <!-- <div class="callout"> -->
-        <ul>
-          <li>Browse the list of organizations.</li>
-          <li>Search by address or keyword.</li>
-          <li>Filter your results by service type.</li>
-        </ul>
-        <!-- </div> -->
-        <!-- </div> -->
-        <!-- <div class="greeting-section"> -->
-
-
-        <p v-html="$t('introPage.p1')" />
         <ul>
           <li
             v-for="(item, index) in $config.i18n.data.messages['en-US'].introPage.ul1"
@@ -43,11 +30,8 @@
             {{ $t('introPage.ul1.' + index) }}
           </li>
         </ul>
-        <!-- <h3>
-          Adding your organization
-        </h3>
 
-        <p>Does your organization offer services for immigrants? Contact the Office of Immigrant Affairs at <a href="mailto:OIA@phila.gov">OIA@phila.gov</a> to learn how to be added to this finder.</p> -->
+        <p v-html="$t('introPage.p1')" />
       </div>
     </div> <!-- end of main-area -->
   </div>
