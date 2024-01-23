@@ -104,12 +104,14 @@ pinboard({
       attrs: {
         target: "_blank",
       },
-      text: "City of Philadelphia",
+      text: "cityOfPhiladelphia",
+      // text: "City of Philadelphia",
     },
     {
       type: "native",
       href: "/oia/resource-finder",
-      text: "About",
+      text: "about",
+      // text: "About",
     },
     {
       type: "native",
@@ -117,7 +119,8 @@ pinboard({
       attrs: {
         target: "_blank",
       },
-      text: "Feedback",
+      text: "feedback",
+      // text: "Feedback",
     },
   ],
   cyclomedia: {
