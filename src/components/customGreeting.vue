@@ -2,14 +2,6 @@
   <div
     class="custom-greeting content"
   >
-    <div class="has-text-centered container">
-      <button
-        class="button open-list-button"
-        @click="$emit('view-list')"
-        v-html="$t('app.viewList')"
-      />
-    </div>
-
     <div
       id="main-area"
       class="main-area"
@@ -21,6 +13,16 @@
 
         <p v-html="$t('introPage.p0')" />
 
+        <div class="has-text-centered container">
+          <button
+            class="button open-list-button"
+            @click="$emit('view-list')"
+            v-html="$t('app.viewList')"
+          />
+        </div>
+
+        <p v-html="$t('introPage.p1')" />
+
         <ul>
           <li
             v-for="(item, index) in $config.i18n.data.messages['en-US'].introPage.ul1"
@@ -31,7 +33,17 @@
           </li>
         </ul>
 
-        <p v-html="$t('introPage.p1')" />
+        <h3>
+          {{ $t('introPage.section2Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p2')" />
+
+        <h3>
+          {{ $t('introPage.section3Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p3')" />
       </div>
     </div> <!-- end of main-area -->
   </div>
