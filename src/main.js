@@ -58,22 +58,16 @@ pinboard({
   retractableRefine: false,
   dropdownRefine: false,
   searchBar: {
-    placeholder: 'Search by address or keyword',
     searchTypes: [
       'address',
       'keyword',
     ],
-    labelText:  {
-      address: 'Search by address',
-      keyword: 'Search by keyword',
-    },
-    placeholderText: {
-      address: 'Search by address',
-      keyword: 'Search by keyword',
-    },
+    searchDistance: 3,
+    fuseThreshold: 0.4,
   },
   locationInfo: {
     siteName: 'organization_name',
+    tagsPhrase: 'languagesSpoken',
   },
   customComps,
   refine: {

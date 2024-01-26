@@ -6,7 +6,7 @@ export default {
     subtitle: 'Spanish Find services for immigrants in Philadelphia',
     noResults: 'We\'re sorry, there are no results for that search. Adjust the filters you\'ve selected and try again.',
     searchPlaceholders: {
-      all: 'Search by address',
+      all: 'Spanish Search by address or language spoken',
     },
   },
   introPage: {

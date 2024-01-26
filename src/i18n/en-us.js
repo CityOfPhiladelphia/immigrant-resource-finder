@@ -6,7 +6,7 @@ export default {
     subtitle: 'Find services for immigrants in Philadelphia',
     noResults: 'We\'re sorry, there are no results for that search. Adjust the filters you\'ve selected and try again.',
     searchPlaceholders: {
-      all: 'Search by address',
+      all: 'Search by address or language spoken',
     },
   },
   introPage: {
