@@ -29,8 +29,11 @@ import pinboard from '@phila/pinboard/src/main.js';
 import immigrant from './data-sources/immigrant';
 
 import customGreeting from './components/customGreeting.vue';
+import expandCollapseContent from './components/ExpandCollapseContent.vue';
+
 const customComps = {
   'customGreeting': customGreeting,
+  'expandCollapseContent': expandCollapseContent,
 };
 
 
