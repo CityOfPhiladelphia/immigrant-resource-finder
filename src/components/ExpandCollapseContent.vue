@@ -159,7 +159,7 @@ export default {
       let formattedService = [];
       for (let i in list) {
         if (list[i] === 'Legal services') {
-          let legalLink = this.item.website;
+          let legalLink = this.item.website_legal;
           let link = `<a href="${legalLink}" target="_blank">${list[i]}</a>`;
           formattedService.push(link);
         } else {
