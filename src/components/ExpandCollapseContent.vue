@@ -148,6 +148,11 @@ export default {
       },
     },
   },
+  computed: {
+    i18nLocale() {
+      return this.$i18n.locale;
+    },
+  },
 
   methods: {
     parseAddress(address) {
@@ -155,15 +160,15 @@ export default {
       return formattedAddress;
     },
     parseServiceList(list) {
-      console.log('parseServiceList:', list, 'this.item:', this.item);
+      console.log('parseServiceList:', list, 'this.item:', this.item, 'this.$i18n.messages:', this.$i18n.messages);
       let formattedService = [];
       for (let i in list) {
         if (list[i] === 'Legal services') {
           let legalLink = this.item.website_legal;
-          let link = `<a href="${legalLink}" target="_blank">${list[i]}<i class='fa fa-external-link-alt'></i></a>`;
+          let link = `<a href="${legalLink}" target="_blank">${this.$i18n.messages[this.i18nLocale][list[i]]}<i class='fa fa-external-link-alt'></i></a>`;
           formattedService.push(link);
         } else {
-          formattedService.push(list[i]);
+          formattedService.push(this.$i18n.messages[this.i18nLocale][list[i]]);
         }
       }
 

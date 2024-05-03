@@ -36,7 +36,7 @@ const customComps = {
 };
 
 import i18n from './i18n/i18n';
-console.log('main.js i18n:', i18n);
+console.log('main.js i18n.i18n:', i18n.i18n);
 
 pinboard({
   publicPath: process.env.VUE_APP_PUBLICPATH,

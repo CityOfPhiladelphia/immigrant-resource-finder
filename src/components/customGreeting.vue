@@ -7,9 +7,9 @@
       class="main-area"
     >
       <div class="greeting-section">
-        <h3>
+        <!-- <h3>
           {{ $t('introPage.section1Title') }}
-        </h3>
+        </h3> -->
 
         <p v-html="$t('introPage.p0')" />
 
@@ -43,7 +43,14 @@
           {{ $t('introPage.section3Title') }}
         </h3>
 
-        <p v-html="$t('introPage.p3')" />
+        <p v-html="$t('introPage.p3_1')" />
+        <p v-html="$t('introPage.p3_2')" />
+
+        <h3>
+          {{ $t('introPage.section4Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p4')" />
       </div>
     </div> <!-- end of main-area -->
   </div>
