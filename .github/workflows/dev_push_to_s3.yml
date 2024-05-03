@@ -6,7 +6,7 @@ name: dev Push to S3
 on:
   push:
     branches:
-      - add-translations
+      - add-translations_x
 
 jobs:
   build:
