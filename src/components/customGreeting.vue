@@ -2,31 +2,55 @@
   <div
     class="custom-greeting content"
   >
-    <div class="has-text-centered container">
-      <button
-        class="button open-list-button"
-        @click="$emit('view-list')"
-        v-html="$t('app.viewList')"
-      />
-    </div>
-
     <div
+      id="main-area"
       class="main-area"
     >
       <div class="greeting-section">
-        <h3>About this finder</h3>
-        <p>This tool can help you find organizations that offer immigrant-focused services in Philadelphia. You can:</p>
-        <div class="callout">
-          <ul>
-            <li>Browse the list of organizations.</li>
-            <li>Search by address or keyword.</li>
-            <li>Filter your results by service type.</li>
-          </ul>
+        <!-- <h3>
+          {{ $t('introPage.section1Title') }}
+        </h3> -->
+
+        <p v-html="$t('introPage.p0')" />
+
+        <div class="has-text-centered container">
+          <button
+            class="button open-list-button"
+            @click="$emit('view-list')"
+            v-html="$t('app.viewList')"
+          />
         </div>
-      </div>
-      <div class="greeting-section">
-        <h3>Adding your organization</h3>
-        <p>Does your organization offer services for immigrants? Contact the Office of Immigrant Affairs at <a href="mailto:OIA@phila.gov">OIA@phila.gov</a> to learn how to be added to this finder.</p>
+
+        <p v-html="$t('introPage.p1')" />
+
+        <ul>
+          <li
+            v-for="(item, index) in $config.i18n.data.messages['en-US'].introPage.ul1"
+            :key="index"
+            class="intro-list-item"
+          >
+            {{ $t('introPage.ul1.' + index) }}
+          </li>
+        </ul>
+
+        <h3>
+          {{ $t('introPage.section2Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p2')" />
+
+        <h3>
+          {{ $t('introPage.section3Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p3_1')" />
+        <p v-html="$t('introPage.p3_2')" />
+
+        <h3>
+          {{ $t('introPage.section4Title') }}
+        </h3>
+
+        <p v-html="$t('introPage.p4')" />
       </div>
     </div> <!-- end of main-area -->
   </div>
