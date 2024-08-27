@@ -109,7 +109,7 @@
       v-if="item.services_offered"
     >
       <h3>
-        Services offered
+        {{ $t('app.servicesOffered') }}
       </h3>
       <div class="columns is-multiline is-gapless">
         <div

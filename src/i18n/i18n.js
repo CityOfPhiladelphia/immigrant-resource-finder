@@ -1,10 +1,10 @@
 
 import en from './en-us';
 import es from './es';
-// import ch from './ch';
-// import vi from './vi';
-// import ru from './ru';
-// import fr from './fr';
+import ch from './ch';
+import vi from './vi';
+import ru from './ru';
+import fr from './fr';
 
 let i18n = {
   i18n: {
@@ -18,10 +18,10 @@ let i18n = {
       messages: {
         'en-US': en,
         es: es,
-        // ch: ch,
-        // vi: vi,
-        // ru: ru,
-        // fr: fr,
+        ch: ch,
+        vi: vi,
+        ru: ru,
+        fr: fr,
       },
     },
   },

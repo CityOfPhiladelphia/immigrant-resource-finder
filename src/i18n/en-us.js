@@ -8,6 +8,7 @@ export default {
     searchPlaceholders: {
       all: 'Search by address or language spoken',
     },
+    servicesOffered: 'Services offered',
   },
   introPage: {
     section1Title: "Find services and support near you",
@@ -19,7 +20,7 @@ export default {
       li3: "Contact the organization by phone or email before visiting.",
     },
     section2Title: "Language access",
-    p2: "Most locations offer most of their services in English. Other available languages vary by organization. To see the languages spoken at an organization, open that location's details.",
+    p2: "Most locations offer most of their services in English. Other languages vary by organization. To see the languages spoken at an organization, open that location's details.",
     section3Title: "Immigration assistance and notario fraud",
     p3_1: "Many of our partners listed here provide <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>free, safe legal services.</a>",
     p3_2: "Beware of unlicensed immigration service providers who take advantage of their customers. In the United States, a notary is not allowed to give legal advice unless they are also a licensed attorney. To report fraud or complain about a provider, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contact 311</a>.",
