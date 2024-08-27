@@ -5,7 +5,6 @@
 // (we might not need to use axios with new vue async tools)
 // if that is not needed, we can move this info to main.js
 
-
 // turn off console logging in production
 if (process.env.NODE_ENV === 'production') {
   console.log = console.info = console.debug = console.error = function () {};
@@ -36,12 +35,15 @@ const customComps = {
   'expandCollapseContent': expandCollapseContent,
 };
 
+import i18n from './i18n/i18n';
+console.log('main.js i18n.i18n:', i18n.i18n);
 
 pinboard({
   publicPath: process.env.VUE_APP_PUBLICPATH,
+  i18n: i18n.i18n,
   app: {
-    title: 'Resources for immigrants',
-    subtitle: 'Find services and support for immigrants in Philadelphia',
+    // title: 'Resources for immigrants',
+    // subtitle: 'Find services and support for immigrants in Philadelphia',
     logoSrc: require('@/assets/oia-logo.png'),
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
@@ -56,22 +58,16 @@ pinboard({
   retractableRefine: false,
   dropdownRefine: false,
   searchBar: {
-    placeholder: 'Search by address or keyword',
     searchTypes: [
       'address',
       'keyword',
     ],
-    labelText:  {
-      address: 'Search by address',
-      keyword: 'Search by keyword',
-    },
-    placeholderText: {
-      address: 'Search by address',
-      keyword: 'Search by keyword',
-    },
+    searchDistance: 3,
+    fuseThreshold: 0.4,
   },
   locationInfo: {
     siteName: 'organization_name',
+    tagsPhrase: 'languagesSpoken',
   },
   customComps,
   refine: {
@@ -102,12 +98,14 @@ pinboard({
       attrs: {
         target: "_blank",
       },
-      text: "City of Philadelphia",
+      text: "cityOfPhiladelphia",
+      // text: "City of Philadelphia",
     },
     {
       type: "native",
       href: "/oia/resource-finder",
-      text: "About",
+      text: "about",
+      // text: "About",
     },
     {
       type: "native",
@@ -115,7 +113,8 @@ pinboard({
       attrs: {
         target: "_blank",
       },
-      text: "Feedback",
+      text: "feedback",
+      // text: "Feedback",
     },
   ],
   cyclomedia: {
