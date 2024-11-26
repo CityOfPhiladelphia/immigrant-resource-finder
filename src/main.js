@@ -21,11 +21,8 @@ import { faEnvelope as farEnvelope } from '@fortawesome/pro-regular-svg-icons';
 
 library.add(farAngleDown, farAngleUp, farTimes, farPlus, farMinus, farEnvelope);
 
-import { markRaw } from 'vue';
-
-// import pinboard from '@phila/pinboard';
-import pinboard from '../node_modules/@phila/pinboard/src/main.js';
-
+import pinboard from '@phila/pinboard';
+// import pinboard from '../node_modules/@phila/pinboard/src/main.js';
 import '../node_modules/@phila/pinboard/dist/style.css';
 
 // data-sources
@@ -40,7 +37,7 @@ const customComps = markRaw({
 });
 
 import i18n from './i18n/i18n';
-console.log('main.js i18n.i18n:', i18n.i18n);
+// console.log('main.js i18n.i18n:', i18n.i18n);
 
 let $config = {
   publicPath: import.meta.env.VITE_PUBLICPATH,
@@ -72,7 +69,6 @@ let $config = {
   locationInfo: {
     siteNameField: 'organization_name',
     siteName: function(item) { return item.properties.organization_name },
-    // tagsPhrase: 'languagesSpoken',
     tagsPhrase: function(item) { return item.properties.languagesSpoken },
   },
   customComps,
@@ -87,6 +83,27 @@ let $config = {
   },
   dataSources: {
     immigrant,
+  },
+  cyclomedia: {
+    enabled: false,
+    // measurementAllowed: false,
+    // popoutAble: true,
+    // recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs',
+    // username: process.env.VUE_APP_CYCLOMEDIA_USERNAME,
+    // password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
+    // apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
+  },
+  markerType: 'circle-marker',
+  mapLayer: {
+    id: 'resources',
+    source: 'resources',
+    type: 'circle',
+    paint: {
+      'circle-radius': 7,
+      'circle-color': '#9400c6',
+      'circle-stroke-width': 1,
+      'circle-stroke-color': 'white',
+    },
   },
   footer: [
     {
@@ -111,37 +128,6 @@ let $config = {
       text: "app.feedback",
     },
   ],
-  cyclomedia: {
-    enabled: false,
-    // measurementAllowed: false,
-    // popoutAble: true,
-    // recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs',
-    // username: process.env.VUE_APP_CYCLOMEDIA_USERNAME,
-    // password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
-    // apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
-  },
-  // markerType: 'pin-marker',
-  markerType: 'circle-marker',
-  // circleMarkers: {
-  //   color: '#9400c6',
-  //   borderColor: 'white',
-  //   weight: 1,
-  //   radius: 8,
-  //   mobileRadius: 12,
-  //   size: 16,
-  //   mobileSize: 20,
-  // },
-  mapLayer: {
-    id: 'resources',
-    source: 'resources',
-    type: 'circle',
-    paint: {
-      'circle-radius': 7,
-      'circle-color': '#9400c6',
-      'circle-stroke-width': 1,
-      'circle-stroke-color': 'white',
-    },
-  },
 };
 
 pinboard($config);
