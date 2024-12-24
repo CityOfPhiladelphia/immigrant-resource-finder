@@ -73,9 +73,8 @@ let $config = {
   refine: {
     type: 'categoryField_array',
     value: function(item) {
-        return item.properties.services_offered;
-      }
-    },
+      return item.properties.services_offered;
+    }
   },
   dataSources: {
     immigrant,
