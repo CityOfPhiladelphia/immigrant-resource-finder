@@ -37,8 +37,6 @@ const customComps = markRaw({
 });
 
 import i18n from './i18n/i18n';
-// console.log('main.js i18n.i18n:', i18n.i18n);
-
 let $config = {
   publicPath: import.meta.env.VITE_PUBLICPATH,
   i18n: i18n.i18n,
@@ -75,8 +73,6 @@ let $config = {
   refine: {
     type: 'categoryField_array',
     value: function(item) {
-      // console.log('item:', item);
-      if (item && item.properties) {
         return item.properties.services_offered;
       }
     },

@@ -6,17 +6,12 @@ import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
 
 const props = defineProps({
-  'message': {
-    type: String,
-    default: function() {
-      return 'defaultMessage';
-    },
-  },
-  'database': {
+  database: {
     type: Array,
-    default: function() {
-      return [];
-    },
+  },
+  isMobile: {
+    type: Boolean,
+    default: false,
   },
 });
 
@@ -41,38 +36,10 @@ const calloutSlots = computed(() => {
   };
 });
 
-// const database = computed(() => {
-//   const DataStore = useDataStore();
-//   return DataStore.sources[DataStore.appType].data.rows || DataStore.sources[DataStore.appType].features || DataStore.sources[DataStore.appType].data;
-// });
-
-// const errorMessage = computed(() => {
-//   const input = this.$store.state.geocode.input;
-//   return `
-//       <p>
-//         We couldn't find
-//         ${input ? '<strong>' + input + '</strong>' : 'that address'}.
-//         Are you sure everything was spelled correctly?
-//       </p>
-//       <p>
-//         Here are some examples of things you can search for:
-//       </p>
-//       <ul>
-//         <li>1234 Market St</li>
-//         <li>1001 Pine Street #201</li>
-//         <li>12th & Market</li>
-//         <li>883309050 (an OPA number with no hyphens or other characters)</li>
-//       </ul>
-//     `;
-// });
-
 watch(
   () => props.database,
   async nextDatabase => {
-    // let subsections = getCounts();
     subsections.value = getCounts();
-    // $store.commit('setSubsections', subsections);
-    // MainStore.subsections = subsections.value;
   },
 );
 
@@ -130,10 +97,6 @@ const getCounts = () => {
   <div
     class="main-greeting"
   >
-    <!-- <div
-      id="main-area"
-      class="main-area"
-    > -->
       <div class="half-data-section">
         <p v-html="t('introPage.p0')" />
       </div>
@@ -143,7 +106,13 @@ const getCounts = () => {
           <button
             class="button greeting-button"
             @click="$emit('view-list')"
-            v-html="t('app.viewList')"
+            v-html="$t('app.viewList')"
+          />
+          <button
+            v-if="isMobile"
+            class="button greeting-button"
+            @click="$emit('view-map')"
+            v-html="$t('app.viewMap')"
           />
         </div>
       </div>
@@ -158,7 +127,6 @@ const getCounts = () => {
             v-for="(item, index) in $config.i18n.data.messages['en-US'].introPage.ul1"
             :key="index"
           >
-          <!-- class="intro-list-item" -->
             {{ t('introPage.ul1.' + index) }}
           </li>
         </ul>
@@ -190,8 +158,7 @@ const getCounts = () => {
       </div>
       
     </div>
-    <!-- </div> end of main-area -->
-  <!-- </div> -->
+    <!-- end of main-area -->
 </template>
 
 <style lang="scss" scoped>
@@ -206,10 +173,11 @@ const getCounts = () => {
   font-size: 1rem;
   color: white;
   cursor: pointer;
+  margin: 1rem;
 }
 
 .greeting-button:hover {
-  border-color: #2176d2 !important;
+  background-color: #444444 !important;
 }
 
 .half-data-section {
