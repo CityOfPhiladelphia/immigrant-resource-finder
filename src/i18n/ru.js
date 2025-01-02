@@ -24,7 +24,7 @@ export default {
     p3_1: "Многие из перечисленных здесь партнеров предоставляют <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>бесплатные и безопасные юридические услуги.</a>",
     p3_2: "Остерегайтесь нелицензированных поставщиков иммиграционных услуг, которые пользуются преимуществами своих клиентов. В Соединенных Штатах нотариусу не разрешается давать юридические консультации, если он также не является лицензированным адвокатом. Чтобы сообщить о мошенничестве или пожаловаться на поставщика услуг, позвоните по <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>номеру 311</a>.",
     section4Title: "Добавление вашей организации в список",
-    p4: "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Управление по делам иммигрантов</a> поддерживает этот веб-сайт. Свяжитесь с нами по адресу <a target='_blank' href='mailto:OIA@phila.gov'>OIA@phila.gov</a>, если вы предлагаете услуги иммигрантам и хотите, чтобы вас добавили в этот список.",
+    p4: "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Управление по делам иммигрантов</a> поддерживает этот веб-сайт. Свяжитесь с нами по адресу <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a>, если вы предлагаете услуги иммигрантам и хотите, чтобы вас добавили в этот список.",
   },
   'Arts & culture': 'Искусство и культура',
   'Citizenship application help': 'Помощь в получении гражданства',
