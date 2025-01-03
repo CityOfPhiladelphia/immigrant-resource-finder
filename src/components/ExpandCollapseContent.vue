@@ -33,7 +33,7 @@ const parseServiceList = (list) => {
     if (list[i] === 'Legal services') {
       let legalLink = props.item.properties.website_legal;
       // let link = `<a href="${legalLink}" target="_blank">${$i18n.messages[i18nLocale][list[i]]}<i class='fa fa-external-link-alt'></i></a>`;
-      let link = `<a href="${legalLink}" target="_blank">${t(list[i])}<i class='fa fa-external-link-alt'></i></a>`;
+      let link = `<a href="${legalLink}" target="_blank">${t(list[i])} <i class='fa fa-external-link-alt'></i></a>`;
       formattedService.push(link);
     } else {
       // formattedService.push($i18n.messages[i18nLocale][list[i]]);
