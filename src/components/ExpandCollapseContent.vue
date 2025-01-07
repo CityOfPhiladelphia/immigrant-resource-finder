@@ -1,8 +1,4 @@
 <script setup>
-// import { useRoute, useRouter } from 'vue-router';
-// import { ref, computed, getCurrentInstance, onMounted, watch } from 'vue';
-
-if (import.meta.env.VITE_DEBUG) console.log('ExpandCollapseContent.vue: import.meta.env.VITE_DEBUG:', import.meta.env.VITE_DEBUG);
 
 import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
@@ -32,11 +28,9 @@ const parseServiceList = (list) => {
   for (let i in list) {
     if (list[i] === 'Legal services') {
       let legalLink = props.item.properties.website_legal;
-      // let link = `<a href="${legalLink}" target="_blank">${$i18n.messages[i18nLocale][list[i]]}<i class='fa fa-external-link-alt'></i></a>`;
       let link = `<a href="${legalLink}" target="_blank">${t(list[i])} <i class='fa fa-external-link-alt'></i></a>`;
       formattedService.push(link);
     } else {
-      // formattedService.push($i18n.messages[i18nLocale][list[i]]);
       formattedService.push(t(list[i]));
     }
   }
@@ -64,11 +58,8 @@ const parseTagsList = (list) => {
 
 </script>
 
-<!-- <template>
-  wawa
-</template> -->
 <template>
-  <div :class="isMobile ? 'main-content-mobile' : 'main-content'">
+  <div class='main-ec-content'>
     <div class="columns top-section">
       <div class="column is-6">
         <div
