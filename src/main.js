@@ -41,9 +41,6 @@ let $config = {
   publicPath: import.meta.env.VITE_PUBLICPATH,
   i18n: i18n.i18n,
   app: {
-    // title: 'Resources for immigrants',
-    // subtitle: 'Find services and support for immigrants in Philadelphia',
-    // logoSrc: require('@/assets/oia-logo.png'),
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
   },
@@ -78,15 +75,6 @@ let $config = {
   },
   dataSources: {
     immigrant,
-  },
-  cyclomedia: {
-    enabled: false,
-    // measurementAllowed: false,
-    // popoutAble: true,
-    // recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs',
-    // username: process.env.VUE_APP_CYCLOMEDIA_USERNAME,
-    // password: process.env.VUE_APP_CYCLOMEDIA_PASSWORD,
-    // apiKey: process.env.VUE_APP_CYCLOMEDIA_API_KEY,
   },
   markerType: 'circle-marker',
   mapLayer: {
