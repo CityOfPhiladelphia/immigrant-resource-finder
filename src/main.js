@@ -76,7 +76,6 @@ let $config = {
   dataSources: {
     immigrant,
   },
-  markerType: 'circle-marker',
   mapLayer: {
     id: 'resources',
     source: 'resources',
