@@ -21,9 +21,12 @@ import { faEnvelope as farEnvelope } from '@fortawesome/pro-regular-svg-icons';
 
 library.add(farAngleDown, farAngleUp, farTimes, farPlus, farMinus, farEnvelope);
 
+// use these if running off unlinked package
 import pinboard from '@phila/pinboard';
-// import pinboard from '../node_modules/@phila/pinboard/src/main.js';
 import '../node_modules/@phila/pinboard/dist/style.css';
+// OR
+// use this if running off linked package
+// import pinboard from '../node_modules/@phila/pinboard/src/main.js';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
