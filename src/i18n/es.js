@@ -24,7 +24,7 @@ export default {
     p3_1: "Muchos de nuestros socios listados aquí brindan <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>servicios legales seguros y gratuitos.</a>",
     p3_2: "Tenga cuidado con los proveedores de servicios de inmigración sin licencia que se aprovechan de sus clientes. En los Estados Unidos, un notario no puede brindar asesoramiento legal a menos que también sea un abogado con licencia. Para denunciar un fraude o presentar una queja sobre un proveedor, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>llame al 311</a>.",
     section4Title: "Agregar su organización a la lista",
-    p4: "La <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Oficina de Asuntos de Inmigrantes</a> mantiene este sitio web. Póngase en contacto con nosotros en <a target='_blank' href='mailto:OIA@phila.gov'>OIA@phila.gov</a> si ofrece servicios para inmigrantes y desea que lo agreguen a esta lista.",
+    p4: "La <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Oficina de Asuntos de Inmigrantes</a> mantiene este sitio web. Póngase en contacto con nosotros en <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> si ofrece servicios para inmigrantes y desea que lo agreguen a esta lista.",
   },
   'Arts & culture': 'Arte y cultura',
   'Citizenship application help': 'Ayuda para la solicitud de ciudadanía',

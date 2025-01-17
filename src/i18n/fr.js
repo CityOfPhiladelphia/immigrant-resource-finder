@@ -24,7 +24,7 @@ export default {
     p3_1: "La plupart de nos partenaires listés ici fournissent des <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>services juridiques gratuits et sûrs.</a>",
     p3_2: "Méfiez-vous des fournisseurs de services d'immigration non agréés qui profitent de leurs clients. Aux États-Unis, un notaire n'est pas autorisé à donner des conseils juridiques à moins qu'il ne soit également un avocat agréé. Pour signaler une fraude ou déposer une plainte concernant un fournisseur, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contactez le 311</a>.",
     section4Title: "Ajouter votre organisation à la liste",
-    p4: "Le <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Bureau des affaires d'immigration</a> gère ce site Web. Contactez-nous à l'<a target='_blank' href='mailto:OIA@phila.gov'>adresse OIA@phila.gov</a> si vous offrez des services aux immigrants et souhaitez être ajouté à cette liste.",
+    p4: "Le <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Bureau des affaires d'immigration</a> gère ce site Web. Contactez-nous à l'<a target='_blank' href='mailto:OIA{'@'}phila.gov'>adresse OIA{'@'}phila.gov</a> si vous offrez des services aux immigrants et souhaitez être ajouté à cette liste.",
   },
   'Arts & culture': 'Arts et culture',
   'Citizenship application help': 'Aide à la demande de citoyenneté',
