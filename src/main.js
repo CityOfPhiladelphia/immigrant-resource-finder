@@ -46,6 +46,7 @@ let $config = {
   app: {
     logoAlt: 'Office of Immigrant Affairs, City of Philadelphia',
     type: 'immigrant',
+    subtitle: 'i18n',
   },
   gtag: {
     category: 'rf-oia',
