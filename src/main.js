@@ -51,7 +51,8 @@ let $config = {
   gtag: {
     category: 'rf-oia',
   },
-  printView: false,
+  // printView: false,
+  allowZipcodeSearch: true,
   allowPrint: true,
   showBuffers: true,
   resetDataOnGeocode: true,
@@ -60,15 +61,34 @@ let $config = {
   searchBar: {
     searchTypes: [
       'address',
+      'zipcode',
       'keyword',
     ],
     searchDistance: 3,
-    fuseThreshold: 0.4,
+    fuseThreshold: 0.3,
+    fuseDistance: 10,
   },
   locationInfo: {
     siteNameField: 'organization_name',
     siteName: function(item) { return item.properties.organization_name },
     tagsPhrase: function(item) { return item.properties.languagesSpoken },
+  },
+  tags: {
+    type: 'fieldValues',
+    tags: [
+      {
+        type: 'array',
+        field: 'tags',
+      },
+      {
+        type: 'array',
+        field: 'services_offered',
+      },
+      {
+        type: 'value',
+        field: 'organization_name',
+      },
+    ],
   },
   customComps,
   refine: {
