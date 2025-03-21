@@ -52,8 +52,18 @@ const makeValidUrl = (url) => {
 };
 
 const parseTagsList = (list) => {
-  const formattedTags = list.slice().sort().join(", ");
-  return formattedTags;
+  let formattedTags = list.slice();
+  let finalTags = [];
+  // if (import.meta.env.VITE_DEBUG) console.log('formattedTags:', formattedTags);
+  for (let tag of formattedTags) {
+    let singleTag = tag.split(' and ');
+    for (let i in singleTag) {
+      // console.log('singleTag[i]:', singleTag[i]);
+      finalTags.push(t(`languages.${singleTag[i].toLowerCase()}`));
+    }
+  }
+  // console.log('finalTags:', finalTags);
+  return finalTags.sort().join(", ");
 };
 
 </script>
@@ -186,7 +196,7 @@ const parseTagsList = (list) => {
       v-if="item.properties.tags && item.properties.tags.length"
     >
       <h3>
-        Tags
+        {{ $t('languages.languagesSpoken') }}
       </h3>
       <div>
         {{ parseTagsList(item.properties.tags) }}
