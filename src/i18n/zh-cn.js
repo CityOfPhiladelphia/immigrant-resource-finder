@@ -4,10 +4,19 @@ export default {
     title: '移民资源',
     subtitle: '为费城的移民寻找服务',
     noResults: '很抱歉，没有针对该搜索的结果。 请调整所选的过滤器，然后重试。',
-    searchPlaceholders: {
-      all: '按地址或所说语言进行搜索',
-    },
     servicesOffered: '提供的服务',
+    searchPlaceholders: {
+      all: "按地址、邮政编码或关键字搜索",
+    },
+    cityOfPhiladelphia: "费城市政府",
+    about: "关于本查找器",
+    betaTag: "Beta",
+    feedback: "反馈",
+    map: '地图',
+    list: '清单',
+    viewMap: "查看地图",
+    viewList: "查看列表",
+    viewAccessible: "查看机构地点列表",
   },
   introPage: {
     section1Title: "查找您附近的服务和支持",

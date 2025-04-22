@@ -4,10 +4,19 @@ export default {
     title: 'Tài nguyên cho người nhập cư',
     subtitle: 'Tìm dịch vụ cho người nhập cư ở Philadelphia',
     noResults: 'Chúng tôi xin lỗi, không có kết quả cho tìm kiếm này. Hãy điều chỉnh bộ lọc bạn đã chọn và thử lại.',
-    searchPlaceholders: {
-      all: 'Tìm kiếm theo địa chỉ hoặc ngôn ngữ nói',
-    },
     servicesOffered: 'Dịch vụ được cung cấp',
+    searchPlaceholders: {
+      all: "Tìm kiếm theo địa chỉ, mã zip hoặc từ khóa",
+    },
+    cityOfPhiladelphia: "Thành phố Philadelphia",
+    about: "Về công cụ này",
+    betaTag: "Thử nghiệm Beta",
+    feedback: "Phản hồi",
+    map: 'Bản đồ',
+    list: 'Danh sách',
+    viewMap: "Xem bản đồ",
+    viewList: "Xem danh sách",
+    viewAccessible: "Xem danh sách các địa điểm gần tôi",
   },
   introPage: {
     section1Title: "Tìm dịch vụ và hỗ trợ gần bạn",

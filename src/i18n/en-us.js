@@ -5,10 +5,19 @@ export default {
     title: 'Resources for immigrants',
     subtitle: 'Find services for immigrants in Philadelphia',
     noResults: 'We\'re sorry, there are no results for that search. Adjust the filters you\'ve selected and try again.',
-    searchPlaceholders: {
-      all: 'Search by address or language spoken',
-    },
     servicesOffered: 'Services offered',
+    searchPlaceholders: {
+      all: "Search by address, zipcode, or keyword",
+    },
+    cityOfPhiladelphia: "City of Philadelphia",
+    about: "About this finder",
+    betaTag: "Beta",
+    feedback: "Feedback",
+    map: 'Map',
+    list: 'List',
+    viewMap: "View map",
+    viewList: "View list",
+    viewAccessible: "View accessible list of site locations",
   },
   introPage: {
     section1Title: "Find services and support near you",

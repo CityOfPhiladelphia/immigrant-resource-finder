@@ -54,8 +54,6 @@ let $config = {
   // printView: false,
   allowZipcodeSearch: true,
   allowPrint: true,
-  showBuffers: true,
-  resetDataOnGeocode: true,
   retractableRefine: false,
   dropdownRefine: false,
   searchBar: {
@@ -66,7 +64,7 @@ let $config = {
     ],
     searchDistance: 3,
     fuseThreshold: 0.3,
-    fuseDistance: 10,
+    fuseDistance: 100,
   },
   locationInfo: {
     siteNameField: 'organization_name',

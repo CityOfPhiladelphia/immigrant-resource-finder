@@ -4,10 +4,19 @@ export default {
     title: 'Recursos para inmigrantes',
     subtitle: 'Encuentre servicios para inmigrantes en Filadelfia',
     noResults: 'Lo sentimos, no se han encontrado resultados para esa búsqueda. Ajuste los filtros que ha seleccionado y vuelva a intentarlo.',
-    searchPlaceholders: {
-      all: 'Busca por dirección o idioma hablado',
-    },
     servicesOffered: 'Servicios ofrecidos',
+    searchPlaceholders: {
+      all: "Busca por dirección, código postal o palabra clave",
+    },
+    cityOfPhiladelphia: "Ciudad de Filadelfia",
+    about: "Acerca de este buscador",
+    betaTag: "Beta",
+    feedback: "Comentarios",
+    map: 'Mapa',
+    list: 'Lista',
+    viewMap: "Ver mapa",
+    viewList: "Ver lista",
+    viewAccessible: "Ver lista accesible de ubicaciones de los sitios",
   },
   introPage: {
     section1Title: "Encuentre servicios y asistencia cerca de usted",
