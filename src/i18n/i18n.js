@@ -15,7 +15,7 @@ let i18n = {
   i18n: {
     languages: [
       {
-        language: 'en-US',
+        language: 'en',
         title: 'English',
       },
       {
@@ -65,9 +65,9 @@ let i18n = {
     expandCollapseTitle: true,
     footer: true,
     data: {
-      locale: 'en-US',
+      locale: 'en',
       messages: {
-        'en-US': en,
+        en: en,
         es: es,
         ch: ch,
         vi: vi,
