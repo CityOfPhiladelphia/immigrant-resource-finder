@@ -22,11 +22,11 @@ import { faEnvelope as farEnvelope } from '@fortawesome/pro-regular-svg-icons';
 library.add(farAngleDown, farAngleUp, farTimes, farPlus, farMinus, farEnvelope);
 
 // use these if running off unlinked package
-import pinboard from '@phila/pinboard';
-import '../node_modules/@phila/pinboard/dist/style.css';
+// import pinboard from '@phila/pinboard';
+// import '../node_modules/@phila/pinboard/dist/style.css';
 // OR
 // use this if running off linked package
-// import pinboard from '../node_modules/@phila/pinboard/src/main.js';
+import pinboard from '../node_modules/@phila/pinboard/src/main.js';
 
 // data-sources
 import immigrant from './data-sources/immigrant';
@@ -64,7 +64,7 @@ let $config = {
     ],
     searchDistance: 3,
     fuseThreshold: 0.3,
-    fuseDistance: 100,
+    fuseDistance: 500,
   },
   locationInfo: {
     siteNameField: 'organization_name',
@@ -77,14 +77,76 @@ let $config = {
       {
         type: 'array',
         field: 'tags',
+        translate: true,
       },
       {
         type: 'array',
         field: 'services_offered',
+        translate: true,
       },
       {
         type: 'value',
         field: 'organization_name',
+      },
+      {
+        type: 'array',
+        field: 'en_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ar_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ch_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'es_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'fr_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'hi_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ht_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'pt_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ru_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'sq_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'sw_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'vi_synonyms',
+        i18nDependent: true,
       },
     ],
   },
