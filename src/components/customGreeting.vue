@@ -17,7 +17,7 @@ const props = defineProps({
 
 const sections = ref({});
 const subsections = ref({});
-    
+
 const i18nEnabled = computed(() => {
   if ($config.i18n) {
     return true;
@@ -124,7 +124,7 @@ const getCounts = () => {
       <div class="half-data-section">
         <ul class="bullet-list">
           <li
-            v-for="(item, index) in $config.i18n.data.messages['en-US'].introPage.ul1"
+            v-for="(item, index) in $config.i18n.data.messages['en'].introPage.ul1"
             :key="index"
           >
             {{ t('introPage.ul1.' + index) }}
@@ -156,7 +156,7 @@ const getCounts = () => {
 
         <p v-html="t('introPage.p4')" />
       </div>
-      
+
     </div>
     <!-- end of main-area -->
 </template>
