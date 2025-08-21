@@ -59,7 +59,8 @@ const parseTagsList = (list) => {
     let singleTag = tag.split(' and ');
     for (let i in singleTag) {
       // console.log('singleTag[i]:', singleTag[i]);
-      finalTags.push(t(`languages.${singleTag[i].toLowerCase()}`));
+      // finalTags.push(t(`${singleTag[i].toLowerCase()}`));
+      finalTags.push(t(singleTag[i].toLowerCase()));
     }
   }
   // console.log('finalTags:', finalTags);
@@ -196,7 +197,7 @@ const parseTagsList = (list) => {
       v-if="item.properties.tags && item.properties.tags.length"
     >
       <h3>
-        {{ $t('languages.languagesSpoken') }}
+        {{ $t('languagesSpoken') }}
       </h3>
       <div>
         {{ parseTagsList(item.properties.tags) }}

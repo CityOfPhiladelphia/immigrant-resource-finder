@@ -1,13 +1,22 @@
 export default {
   language: 'Français',
   app: {
-    title: 'Ressources pour les immigrants',
+    title: 'Outil de recherche de ressources communautaires accueillantes',
     subtitle: 'Trouvez des services pour les immigrants à Philadelphie',
     noResults: "Nous sommes désolés, mais cette recherche n'a donné aucun résultat. Modifiez les filtres que vous aviez sélectionnés et essayez à nouveau.",
-    searchPlaceholders: {
-      all: 'Recherche par adresse ou par langue parlée',
-    },
     servicesOffered: 'Services offerts',
+    searchPlaceholders: {
+      all: "Recherche par adresse, code postal ou mot clé",
+    },
+    cityOfPhiladelphia: "Ville de Philadelphie",
+    about: "A propos de cet outil de recherche",
+    betaTag: "Beta",
+    feedback: "Commentaires",
+    map: 'Carte',
+    list: 'Liste',
+    viewMap: "Afficher la carte",
+    viewList: "Afficher la liste",
+    viewAccessible: "Afficher la liste accessible des emplacements des sites",
   },
   introPage: {
     section1Title: "Trouvez des services et de l'assistance près de chez vous",
