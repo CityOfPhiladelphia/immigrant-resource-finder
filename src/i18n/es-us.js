@@ -1,7 +1,7 @@
 export default {
   language: 'Español',
   app: {
-    title: 'Recursos para inmigrantes',
+    title: 'Buscador de recursos comunitarios de bienvenida',
     subtitle: 'Encuentre servicios para inmigrantes en Filadelfia',
     noResults: 'Lo sentimos, no se han encontrado resultados para esa búsqueda. Ajuste los filtros que ha seleccionado y vuelva a intentarlo.',
     servicesOffered: 'Servicios ofrecidos',

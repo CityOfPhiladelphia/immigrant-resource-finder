@@ -1,7 +1,7 @@
 export default {
   language: 'Français',
   app: {
-    title: 'Ressources pour les immigrants',
+    title: 'Outil de recherche de ressources communautaires accueillantes',
     subtitle: 'Trouvez des services pour les immigrants à Philadelphie',
     noResults: "Nous sommes désolés, mais cette recherche n'a donné aucun résultat. Modifiez les filtres que vous aviez sélectionnés et essayez à nouveau.",
     servicesOffered: 'Services offerts',

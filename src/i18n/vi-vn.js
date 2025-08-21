@@ -1,7 +1,7 @@
 export default {
   language: 'Tiếng Anh',
   app: {
-    title: 'Tài nguyên cho người nhập cư',
+    title: 'Công cụ tìm tài nguyên cộng đồng chào mừng',
     subtitle: 'Tìm dịch vụ cho người nhập cư ở Philadelphia',
     noResults: 'Chúng tôi xin lỗi, không có kết quả cho tìm kiếm này. Hãy điều chỉnh bộ lọc bạn đã chọn và thử lại.',
     servicesOffered: 'Dịch vụ được cung cấp',

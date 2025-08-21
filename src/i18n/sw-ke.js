@@ -1,7 +1,7 @@
 export default {
   language: 'Kiswahili',
   app: {
-    title: 'Rasilimali za wahamiaji',
+    title: 'Kutafuta Rasilimali za Jamii Karibu',
     subtitle: 'Pata huduma kwa wahamiaji jijini Philadelphia.',
     noResults: 'Samahani, hakuna matokeo ya utafutaji huo. Rekebisha vichujio ulivyochagua na ujaribu tena.',
     servicesOffered: 'Huduma zinazotolewa',

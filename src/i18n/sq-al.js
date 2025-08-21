@@ -1,7 +1,7 @@
 export default {
   language: 'Shqiptar',
   app: {
-    title: 'Burime për imigrantët',
+    title: 'Mirësevini Gjetësin e Buri',
     subtitle: 'Gjeni shërbime për imigrantët në Filadelfia',
     noResults: 'Ndjesë, nuk ka rezultate për këtë kërkim. Rregulloni filtrat që keni zgjedhur dhe provoni sërish.',
     servicesOffered: 'Shërbimet e ofruara',

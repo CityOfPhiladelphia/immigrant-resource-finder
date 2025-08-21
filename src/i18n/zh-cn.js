@@ -1,7 +1,7 @@
 export default {
   language: '中文',
   app: {
-    title: '移民资源',
+    title: '欢迎社区资源搜索器',
     subtitle: '为费城的移民寻找服务',
     noResults: '很抱歉，没有针对该搜索的结果。 请调整所选的过滤器，然后重试。',
     servicesOffered: '提供的服务',

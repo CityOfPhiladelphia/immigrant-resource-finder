@@ -1,7 +1,7 @@
 export default {
   language: 'Ayisyen',
   app: {
-    title: 'Resous pou imigran yo',
+    title: 'Akeyi Resous Kominote Chèche',
     subtitle: 'Jwenn sèvis pou imigran nan Philadelphia',
     noResults: 'Nou regrèt, pa gen okenn rezilta pou rechèch sa a. Ajiste filtè ou te chwazi yo epi eseye ankò.',
     servicesOffered: 'Sèvis yo ofri',

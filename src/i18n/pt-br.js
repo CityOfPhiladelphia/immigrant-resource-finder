@@ -1,7 +1,7 @@
 export default {
   language: 'Português',
   app: {
-    title: 'Recursos para imigrantes',
+    title: 'Acolhendo o Community Resource Finder',
     subtitle: 'Encontre serviços para imigrantes na Filadélfia',
     noResults: 'Infelizmente, não há resultados para a sua busca. Ajuste os filtros que selecionou e tente novamente.',
     servicesOffered: 'Serviços oferecidos',

@@ -2,7 +2,7 @@
 export default {
   language: 'English',
   app: {
-    title: 'Resources for immigrants',
+    title: 'Welcoming Community Resource Finder',
     subtitle: 'Find services for immigrants in Philadelphia',
     noResults: 'We\'re sorry, there are no results for that search. Adjust the filters you\'ve selected and try again.',
     servicesOffered: 'Services offered',
