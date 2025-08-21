@@ -54,8 +54,6 @@ let $config = {
   // printView: false,
   allowZipcodeSearch: true,
   allowPrint: true,
-  showBuffers: true,
-  resetDataOnGeocode: true,
   retractableRefine: false,
   dropdownRefine: false,
   searchBar: {
@@ -66,7 +64,7 @@ let $config = {
     ],
     searchDistance: 3,
     fuseThreshold: 0.3,
-    fuseDistance: 10,
+    fuseDistance: 500,
   },
   locationInfo: {
     siteNameField: 'organization_name',
@@ -79,14 +77,76 @@ let $config = {
       {
         type: 'array',
         field: 'tags',
+        translate: true,
       },
       {
         type: 'array',
         field: 'services_offered',
+        translate: true,
       },
       {
         type: 'value',
         field: 'organization_name',
+      },
+      {
+        type: 'array',
+        field: 'en_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ar_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ch_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'es_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'fr_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'hi_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ht_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'pt_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'ru_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'sq_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'sw_synonyms',
+        i18nDependent: true,
+      },
+      {
+        type: 'array',
+        field: 'vi_synonyms',
+        i18nDependent: true,
       },
     ],
   },

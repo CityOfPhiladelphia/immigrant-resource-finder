@@ -1,6 +1,13 @@
 <script setup>
 
-import $config from '../main.js';
+// use these if running off unlinked package
+import { useConfigStore } from '@phila/pinboard';
+// OR
+// use this if running off linked package
+// import { useConfigStore } from '../../node_modules/@phila/pinboard/src/stores/ConfigStore.js';
+
+const $config = useConfigStore().config;
+if (import.meta.env.VITE_DEBUG) console.log('$config:', $config);
 
 import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
