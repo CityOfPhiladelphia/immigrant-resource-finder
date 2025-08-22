@@ -46,6 +46,9 @@ export default {
   'Legal services': 'Shërbime ligjore',
   'Refugee/asylee services': 'Shërbime për refugjatët/azilantët',
   'Victim/witness support': 'Mbështetje për viktimat/dëshmitarët',
+  'Citizenship classes': 'Klasat e qytetarisë',
+  'Tax preparation': 'Përgatitja e taksave',
+  'Education': 'Arsimimi',
   refinePanel: {
     refine: 'filtër',
     clearAll: 'Pastroni të gjitha',

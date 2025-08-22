@@ -46,4 +46,7 @@ export default {
   'Legal services': 'Services juridiques',
   'Refugee/asylee services': "Services aux réfugiés/demandeurs d'asile",
   'Victim/witness support': 'Aide aux victimes et aux témoins',
+  'Citizenship classes': 'Cours de citoyenneté',
+  'Tax preparation': 'Préparation des impôts',
+  'Education': 'Éducation',
 };

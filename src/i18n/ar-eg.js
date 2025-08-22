@@ -46,6 +46,9 @@ export default {
   'Legal services': 'الخدمات القانونية',
   'Refugee/asylee services': 'خدمات اللاجئين/طالبي اللجوء',
   'Victim/witness support': 'دعم الضحايا/الشهود',
+  'Citizenship classes': 'فصول المواطنة',
+  'Tax preparation': 'إعداد الضرائب',
+  'Education': 'التعليم',
   refinePanel: {
     refine: "تصفية",
     clearAll: "مسح الكل",
