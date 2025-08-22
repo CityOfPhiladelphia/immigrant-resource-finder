@@ -25,7 +25,7 @@ const parseAddress = (address) => {
 const parseServiceList = (list) => {
   console.log('parseServiceList:', list);
   let formattedService = [];
-  for (let i in list) {
+  for (let i=0; i < list.length; i++) {
     if (list[i] === 'Legal services') {
       let legalLink = props.item.properties.website_legal;
       let link = `<a href="${legalLink}" target="_blank">${t(list[i])} <i class='fa fa-external-link-alt'></i></a>`;
@@ -34,6 +34,7 @@ const parseServiceList = (list) => {
       formattedService.push(t(list[i]));
     }
   }
+
   return formattedService;
 };
 
@@ -54,11 +55,11 @@ const makeValidUrl = (url) => {
 const parseTagsList = (list) => {
   let formattedTags = list.slice();
   let finalTags = [];
-  // if (import.meta.env.VITE_DEBUG) console.log('formattedTags:', formattedTags);
+  if (import.meta.env.VITE_DEBUG) console.log('formattedTags:', formattedTags);
   for (let tag of formattedTags) {
     let singleTag = tag.split(' and ');
-    for (let i in singleTag) {
-      // console.log('singleTag[i]:', singleTag[i]);
+    for (let i = 0; i < singleTag.length; i++) {
+      console.log('singleTag[i]:', singleTag[i]);
       // finalTags.push(t(`${singleTag[i].toLowerCase()}`));
       finalTags.push(t(singleTag[i].toLowerCase()));
     }
