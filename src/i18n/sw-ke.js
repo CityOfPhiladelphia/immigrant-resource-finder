@@ -46,6 +46,9 @@ export default {
   'Legal services': 'Huduma za kisheria',
   'Refugee/asylee services': 'Huduma za mkimbizi/mkimbizi aliye na hifadhi',
   'Victim/witness support': 'Usaidizi wa mwathirika/shahidi',
+  'Citizenship classes': 'Klasat za uraia',
+  'Tax preparation': 'Kuandaa ushuru',
+  'Education': 'Elimu',
   refinePanel: {
     refine: "chuja",
     clearAll: "Futa zote",

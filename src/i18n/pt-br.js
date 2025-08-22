@@ -46,6 +46,9 @@ export default {
   'Legal services': 'Serviços jurídicos',
   'Refugee/asylee services': 'Serviços para refugiados/solicitantes de asilo',
   'Victim/witness support': 'Apoio a vítima/testemunha',
+  'Citizenship classes': 'Aulas de cidadania',
+  'Tax preparation': 'Preparação de impostos',
+  'Education': 'Educação',
   refinePanel: {
     refine: "filtro",
     clearAll: "Limpe tudo",

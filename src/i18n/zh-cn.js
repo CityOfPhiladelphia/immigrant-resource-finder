@@ -46,4 +46,7 @@ export default {
   'Legal services': '法律服务',
   'Refugee/asylee services': '难民/寻求庇护者服务',
   'Victim/witness support': '受害者/证人支持',
+  'Citizenship classes': '公民身份课程',
+  'Tax preparation': '税务准备',
+  'Education': '教育',
 };
