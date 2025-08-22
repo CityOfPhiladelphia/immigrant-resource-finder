@@ -46,4 +46,7 @@ export default {
   'Legal services': 'Dịch vụ pháp lý',
   'Refugee/asylee services': 'Dịch vụ tị nạn/asylee',
   'Victim/witness support': 'Hỗ trợ nạn nhân/nhân chứng',
+  'Citizenship classes': 'Lớp học quốc tịch',
+  'Tax preparation': 'Chuẩn bị thuế',
+  'Education': 'Giáo dục',
 };

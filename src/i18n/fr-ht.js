@@ -46,6 +46,9 @@ export default {
   'Legal services': 'Sèvis Legal',
   'Refugee/asylee services': 'Sèvis refijye/azil',
   'Victim/witness support': 'Sipò pou viktim/temwen',
+  'Citizenship classes': 'Klas sitwayènte',
+  'Tax preparation': 'Preparasyon taks',
+  'Education': 'Edikasyon',
   refinePanel: {
     refine: "Filtre",
     clearAll: "Efase tout",
