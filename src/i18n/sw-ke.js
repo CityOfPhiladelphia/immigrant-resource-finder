@@ -1,39 +1,39 @@
-export default {
-  language: "Kiswahili",
-  app: {
-    title: "Kutafuta Rasilimali za Jamii Karibu",
-    subtitle: "Pata huduma kwa wahamiaji jijini Philadelphia.",
-    noResults: "Samahani, hakuna matokeo ya utafutaji huo. Rekebisha vichujio ulivyochagua na ujaribu tena.",
-    servicesOffered: "Huduma zinazotolewa",
-    searchPlaceholders: {
-      all: "Tafuta kwa anwani, zipcode, au neno kuu"
+export default{
+  "language": "Kiswahili",
+  "app": {
+    "title": "Kutafuta Rasilimali za Jamii Karibu",
+    "subtitle": "Pata huduma kwa wahamiaji jijini Philadelphia.",
+    "noResults": "Samahani, hakuna matokeo ya utafutaji huo. Rekebisha vichujio ulivyochagua na ujaribu tena.",
+    "servicesOffered": "Huduma zinazotolewa",
+    "searchPlaceholders": {
+      "all": "Tafuta kwa anwani, zipcode, au neno kuu"
     },
-    cityOfPhiladelphia: "Mji wa Philadelphia",
-    about: "Kuhusu kitafutaji hiki",
-    betaTag: "Beta",
-    feedback: "Maoni",
-    map: "Ramani",
-    list: "Orodha",
-    viewMap: "Tazama ramani",
-    viewList: "Tazama orodha",
-    viewAccessible: "Tazama orodha inayoweza kufikiwa ya maeneo ya tovuti"
+    "cityOfPhiladelphia": "Mji wa Philadelphia",
+    "about": "Kuhusu kitafutaji hiki",
+    "betaTag": "Beta",
+    "feedback": "Maoni",
+    "map": "Ramani",
+    "list": "Orodha",
+    "viewMap": "Tazama ramani",
+    "viewList": "Tazama orodha",
+    "viewAccessible": "Tazama orodha inayoweza kufikiwa ya maeneo ya tovuti"
   },
-  introPage: {
-    section1Title: "Pata huduma na msaada ulio karibu nawe",
-    p0: "Philadelphia ina rasilimali nyingi za wahamiaji na wakimbizi. Unaweza kupata msaada katika masuala ya kisheria, kuhudhuria hafla za kitamaduni, kujisajili kwenye masomo ya Kiingereza, na zaidi. Tumia zana hii kupata mashirika yaliyo karibu nawe.",
-    p1: "Ili kupata rasilimali za wahamiaji na wakimbizi:",
-    ul1: {
-      li: "Chuja kwa kutumia huduma unazotafuta.",
-      li2: "Ili kupata maelezo, chagua eneo kwenye ramani.",
-      li3: "Wasiliana na shirika kwa njia ya simu au barua pepe kabla ya kuzuru."
+  "introPage": {
+    "section1Title": "Pata huduma na msaada ulio karibu nawe",
+    "p0": "Philadelphia ina rasilimali nyingi za wahamiaji na wakimbizi. Unaweza kupata msaada katika masuala ya kisheria, kuhudhuria hafla za kitamaduni, kujisajili kwenye masomo ya Kiingereza, na zaidi. Tumia zana hii kupata mashirika yaliyo karibu nawe.",
+    "p1": "Ili kupata rasilimali za wahamiaji na wakimbizi:",
+    "ul1": {
+      "li": "Chuja kwa kutumia huduma unazotafuta.",
+      "li2": "Ili kupata maelezo, chagua eneo kwenye ramani.",
+      "li3": "Wasiliana na shirika kwa njia ya simu au barua pepe kabla ya kuzuru."
     },
-    section2Title: "Ufikiaji wa lugha",
-    p2: "Maeneo mengi hutoa huduma zao nyingi katika lugha ya Kiingereza. Lugha hizo zingine hutofautiana kulingana na shirika. Ili uone lugha zinazozungumzwa katika shirika, fungua maelezo ya eneo hilo.",
-    section3Title: "Msaada wa uhamiaji na udanganyifu wa mthibitishaji",
-    p3_1: "Washirika wetu wengi walioorodheshwa hapa hutoa <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>free, safe legal services.</a>",
-    p3_2: "Jihadhari na watoa huduma ya uhamiaji wasio na leseni ambao hutumia wateja wao vibaya. Nchini Marekani, mwanasheria wa kiraia haruhusiwi kutoa ushauri wa kisheria isipokuwa pia wawe ni wanasheria walio na leseni. Ili kuripoti udanganyifu au lalamishi kuhusu mtoa huduma, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contact 311</a>.",
-    section4Title: "Kuongeza shirika lako kwenye orodha",
-    p4: "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> hudumisha tovuti hii. Wasiliana nasi kupitia <a target='_blank' href='mailto: OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> iwapo huwa unatoa huduma za uhamiaji na ungependa kuongezwa kwenye orodha hii."
+    "section2Title": "Ufikiaji wa lugha",
+    "p2": "Maeneo mengi hutoa huduma zao nyingi katika lugha ya Kiingereza. Lugha hizo zingine hutofautiana kulingana na shirika. Ili uone lugha zinazozungumzwa katika shirika, fungua maelezo ya eneo hilo.",
+    "section3Title": "Msaada wa uhamiaji na udanganyifu wa mthibitishaji",
+    "p3_1": "Washirika wetu wengi walioorodheshwa hapa hutoa <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>free, safe legal services.</a>",
+    "p3_2": "Jihadhari na watoa huduma ya uhamiaji wasio na leseni ambao hutumia wateja wao vibaya. Nchini Marekani, mwanasheria wa kiraia haruhusiwi kutoa ushauri wa kisheria isipokuwa pia wawe ni wanasheria walio na leseni. Ili kuripoti udanganyifu au lalamishi kuhusu mtoa huduma, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contact 311</a>.",
+    "section4Title": "Kuongeza shirika lako kwenye orodha",
+    "p4": "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> hudumisha tovuti hii. Wasiliana nasi kupitia <a target='_blank' href='mailto: OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> iwapo huwa unatoa huduma za uhamiaji na ungependa kuongezwa kwenye orodha hii."
   },
   "Arts & culture": "Sanaa na utamaduni",
   "Citizenship application help": "Usaidizi katika kutuma ombi la kupata uraia",
