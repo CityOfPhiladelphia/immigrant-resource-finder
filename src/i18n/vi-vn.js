@@ -1,22 +1,22 @@
 export default {
-  language: 'Tiếng Anh',
+  language: "Tiếng Anh",
   app: {
-    title: 'Công cụ tìm tài nguyên cộng đồng chào mừng',
-    subtitle: 'Tìm dịch vụ cho người nhập cư ở Philadelphia',
-    noResults: 'Chúng tôi xin lỗi, không có kết quả cho tìm kiếm này. Hãy điều chỉnh bộ lọc bạn đã chọn và thử lại.',
-    servicesOffered: 'Dịch vụ được cung cấp',
+    title: "Công cụ tìm tài nguyên cộng đồng chào mừng",
+    subtitle: "Tìm dịch vụ cho người nhập cư ở Philadelphia",
+    noResults: "Chúng tôi xin lỗi, không có kết quả cho tìm kiếm này. Hãy điều chỉnh bộ lọc bạn đã chọn và thử lại.",
+    servicesOffered: "Dịch vụ được cung cấp",
     searchPlaceholders: {
-      all: "Tìm kiếm theo địa chỉ, mã zip hoặc từ khóa",
+      all: "Tìm kiếm theo địa chỉ, mã zip hoặc từ khóa"
     },
     cityOfPhiladelphia: "Thành phố Philadelphia",
     about: "Về công cụ này",
     betaTag: "Thử nghiệm Beta",
     feedback: "Phản hồi",
-    map: 'Bản đồ',
-    list: 'Danh sách',
+    map: "Bản đồ",
+    list: "Danh sách",
     viewMap: "Xem bản đồ",
     viewList: "Xem danh sách",
-    viewAccessible: "Xem danh sách các địa điểm gần tôi",
+    viewAccessible: "Xem danh sách các địa điểm gần tôi"
   },
   introPage: {
     section1Title: "Tìm dịch vụ và hỗ trợ gần bạn",
@@ -25,7 +25,7 @@ export default {
     ul1: {
       li: "Lọc theo các dịch vụ bạn đang tìm kiếm.",
       li2: "Chọn một vị trí trên bản đồ để biết chi tiết.",
-      li3: "Liên hệ với tổ chức qua điện thoại hoặc email trước khi đến thăm.",
+      li3: "Liên hệ với tổ chức qua điện thoại hoặc email trước khi đến thăm."
     },
     section2Title: "Truy cập ngôn ngữ",
     p2: "Hầu hết các địa điểm cung cấp hầu hết các dịch vụ của họ bằng tiếng Anh. Các ngôn ngữ khác nhau tùy theo tổ chức. Để xem các ngôn ngữ được sử dụng tại một tổ chức, hãy mở chi tiết về địa điểm đó.",
@@ -33,20 +33,20 @@ export default {
     p3_1: "Nhiều đối tác của chúng tôi được liệt kê ở đây cung cấp <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>các dịch vụ pháp lý miễn phí, an toàn.</a>",
     p3_2: "Hãy cẩn thận với các nhà cung cấp dịch vụ nhập cư không có giấy phép lợi dụng khách hàng của họ. Tại Hoa Kỳ, một công chứng viên không được phép đưa ra lời khuyên pháp lý trừ khi họ cũng là một luật sư được cấp phép. Để báo cáo gian lận hoặc khiếu nại về nhà cung cấp, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>hãy liên hệ 311</a>.",
     section4Title: "Thêm tổ chức của bạn vào danh sách",
-    p4: "Văn <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>phòng các vấn đề nhập cư</a> duy trì trang web này. Liên hệ với chúng tôi tại <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> nếu bạn cung cấp dịch vụ nhập cư và muốn được thêm vào danh sách này.",
+    p4: "Văn <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>phòng các vấn đề nhập cư</a> duy trì trang web này. Liên hệ với chúng tôi tại <a target='_blank' href='mailto:OIA'@'}phila.gov'>OIA{'@'}phila.gov</a> nếu bạn cung cấp dịch vụ nhập cư và muốn được thêm vào danh sách này."
   },
-  'Arts & culture': 'Nghệ thuật & văn hóa',
-  'Citizenship application help': 'Trợ giúp về ứng dụng quốc tịch',
-  'English (ESL) classes': 'Lớp học tiếng Anh (ESL)',
-  'Health/mental health services': 'Sức khỏe/Dịch vụ sức khỏe tâm thần',
-  'Housing assistance': 'Hỗ trợ nhà ở',
-  'Immigrant advocacy': 'Vận động cho người nhập cư',
-  'Immigrant focused youth programs': 'Các chương trình thanh niên tập trung vào người nhập cư',
-  'Job readiness': 'Sẵn sàng công việc',
-  'Legal services': 'Dịch vụ pháp lý',
-  'Refugee/asylee services': 'Dịch vụ tị nạn/asylee',
-  'Victim/witness support': 'Hỗ trợ nạn nhân/nhân chứng',
-  'Citizenship classes': 'Lớp học quốc tịch',
-  'Tax preparation': 'Chuẩn bị thuế',
-  'Education': 'Giáo dục',
-};
+  "Arts & culture": "Nghệ thuật & văn hóa",
+  "Citizenship application help": "Trợ giúp về ứng dụng quốc tịch",
+  "English (ESL) classes": "Lớp học tiếng Anh (ESL)",
+  "Health/mental health services": "Sức khỏe/Dịch vụ sức khỏe tâm thần",
+  "Housing assistance": "Hỗ trợ nhà ở",
+  "Immigrant advocacy": "Vận động cho người nhập cư",
+  "Immigrant focused youth programs": "Các chương trình thanh niên tập trung vào người nhập cư",
+  "Job readiness": "Sẵn sàng công việc",
+  "Legal services": "Dịch vụ pháp lý",
+  "Refugee/asylee services": "Dịch vụ tị nạn/asylee",
+  "Victim/witness support": "Hỗ trợ nạn nhân/nhân chứng",
+  "Citizenship classes": "Lớp học quốc tịch",
+  "Tax preparation": "Chuẩn bị thuế",
+  "Education": "Giáo dục"
+}
