@@ -16,7 +16,8 @@ export default{
     "list": "Lista",
     "viewMap": "Visualize o mapa",
     "viewList": "Visualize a lista",
-    "viewAccessible": "Visualize a lista acessível de localizações de sites"
+    "viewAccessible": "Visualize a lista acessível de localizações de sites",
+    "tutorial": ""
   },
   "introPage": {
     "section1Title": "Encontre serviços e apoio perto de você",

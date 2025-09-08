@@ -16,7 +16,8 @@ export default{
     "list": "Orodha",
     "viewMap": "Tazama ramani",
     "viewList": "Tazama orodha",
-    "viewAccessible": "Tazama orodha inayoweza kufikiwa ya maeneo ya tovuti"
+    "viewAccessible": "Tazama orodha inayoweza kufikiwa ya maeneo ya tovuti",
+    "tutorial": ""
   },
   "introPage": {
     "section1Title": "Pata huduma na msaada ulio karibu nawe",

@@ -16,7 +16,8 @@ export default{
     "list": "Lista",
     "viewMap": "Shiko hartën",
     "viewList": "Shiko listën",
-    "viewAccessible": "Shikoni listën e arritshme të vendndodhjeve të faqes"
+    "viewAccessible": "Shikoni listën e arritshme të vendndodhjeve të faqes",
+    "tutorial": ""
   },
   "introPage": {
     "section1Title": "Gjeni shërbime dhe mbështetje pranë jush",

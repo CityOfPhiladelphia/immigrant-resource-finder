@@ -16,7 +16,8 @@ export default{
     "list": "قائمة",
     "viewMap": "عرض الخريطة",
     "viewList": "عرض القائمة",
-    "viewAccessible": "عرض قائمة المواقع القابلة للوصول"
+    "viewAccessible": "عرض قائمة المواقع القابلة للوصول",
+    "tutorial": ""
   },
   "introPage": {
     "section1Title": "البحث عن الخدمات والدعم بالقرب منك",
