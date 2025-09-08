@@ -16,7 +16,9 @@ export default{
     "list": "List",
     "viewMap": "View map",
     "viewList": "View list",
-    "viewAccessible": "View accessible list of site locations"
+    "viewAccessible": "View accessible list of site locations",
+    "tutorial1": "Tutorial 1",
+    "tutorial2": "Tutorial 2"
   },
   "introPage": {
     "section1Title": "Find services and support near you",

@@ -41,28 +41,28 @@ const customComps = markRaw({
   'expandCollapseContent': expandCollapseContent,
 });
 
-import en1 from './tutorial/en-us-1.png';
-import en2 from './tutorial/en-us-2.png';
-import ar1 from './tutorial/ar-eg-1.png';
-import ar2 from './tutorial/ar-eg-2.png';
-import es1 from './tutorial/es-us-1.png';
-import es2 from './tutorial/es-us-2.png';
-import fr1 from './tutorial/fr-fr-1.png';
-import fr2 from './tutorial/fr-fr-2.png';
-import ht1 from './tutorial/fr-ht-1.png';
-import ht2 from './tutorial/fr-ht-2.png';
-import pt1 from './tutorial/pt-br-1.png';
-import pt2 from './tutorial/pt-br-2.png';
-import ru1 from './tutorial/ru-ru-1.png';
-import ru2 from './tutorial/ru-ru-2.png';
-import al1 from './tutorial/sq-al-1.png';
-import al2 from './tutorial/sq-al-2.png';
-import sw1 from './tutorial/sw-ke-1.png';
-import sw2 from './tutorial/sw-ke-2.png';
-import vi1 from './tutorial/vi-vn-1.png';
-import vi2 from './tutorial/vi-vn-2.png';
-import ch1 from './tutorial/zh-cn-1.png';
-import ch2 from './tutorial/zh-cn-2.png';
+import en1 from './tutorial/en-1.png';
+import en2 from './tutorial/en-2.png';
+import ar1 from './tutorial/ar-1.png';
+import ar2 from './tutorial/ar-2.png';
+import es1 from './tutorial/es-1.png';
+import es2 from './tutorial/es-2.png';
+import fr1 from './tutorial/fr-1.png';
+import fr2 from './tutorial/fr-2.png';
+import ht1 from './tutorial/ht-1.png';
+import ht2 from './tutorial/ht-2.png';
+import pt1 from './tutorial/pt-1.png';
+import pt2 from './tutorial/pt-2.png';
+import ru1 from './tutorial/ru-1.png';
+import ru2 from './tutorial/ru-2.png';
+import al1 from './tutorial/sq-1.png';
+import al2 from './tutorial/sq-2.png';
+import sw1 from './tutorial/sw-1.png';
+import sw2 from './tutorial/sw-2.png';
+import vi1 from './tutorial/vi-1.png';
+import vi2 from './tutorial/vi-2.png';
+import ch1 from './tutorial/zh-1.png';
+import ch2 from './tutorial/zh-2.png';
 
 import i18n from './i18n/i18n';
 let $config = {
@@ -252,7 +252,7 @@ let $config = {
       attrs: {
         target: "_blank",
       },
-      text: "Tutorial 1",
+      text: "app.tutorial1",
     },
     {
       type: "native",
@@ -264,7 +264,7 @@ let $config = {
       attrs: {
         target: "_blank",
       },
-      text: "Tutorial 2",
+      text: "app.tutorial2",
     },
   ],
 };

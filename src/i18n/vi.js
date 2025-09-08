@@ -17,7 +17,8 @@ export default{
     "viewMap": "Xem bản đồ",
     "viewList": "Xem danh sách",
     "viewAccessible": "Xem danh sách các địa điểm gần tôi",
-    "tutorial": ""
+    "tutorial1": "Hướng dẫn 1",
+    "tutorial2": "Hướng dẫn 2"
   },
   "introPage": {
     "section1Title": "Tìm dịch vụ và hỗ trợ gần bạn",

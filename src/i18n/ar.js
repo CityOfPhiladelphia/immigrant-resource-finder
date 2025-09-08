@@ -17,7 +17,8 @@ export default{
     "viewMap": "عرض الخريطة",
     "viewList": "عرض القائمة",
     "viewAccessible": "عرض قائمة المواقع القابلة للوصول",
-    "tutorial": ""
+    "tutorial1": "البرنامج التعليمي 1",
+    "tutorial2": "البرنامج التعليمي 2"
   },
   "introPage": {
     "section1Title": "البحث عن الخدمات والدعم بالقرب منك",
