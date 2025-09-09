@@ -17,7 +17,7 @@ export default{
     "viewMap": "Shiko hartën",
     "viewList": "Shiko listën",
     "viewAccessible": "Shikoni listën e arritshme të vendndodhjeve të faqes",
-    "tutorial1": "Tutorial 1",
+    "tutorial1": "Udhëzues 1",
     "tutorial2": "Udhëzues 2"
   },
   "introPage": {
