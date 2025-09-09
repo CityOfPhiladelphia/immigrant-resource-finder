@@ -32,8 +32,10 @@ export default{
     "section2Title": "Truy cập ngôn ngữ",
     "p2": "Hầu hết các địa điểm cung cấp hầu hết các dịch vụ của họ bằng tiếng Anh. Các ngôn ngữ khác nhau tùy theo tổ chức. Để xem các ngôn ngữ được sử dụng tại một tổ chức, hãy mở chi tiết về địa điểm đó.",
     "section3Title": "Hỗ trợ nhập cư và gian lận công chứng",
+    "p3_1": "Nhiều đối tác của chúng tôi được liệt kê ở đây cung cấp <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>các dịch vụ pháp lý miễn phí, an toàn.</a>",
     "p3_2": "Hãy cẩn thận với các nhà cung cấp dịch vụ nhập cư không có giấy phép lợi dụng khách hàng của họ. Tại Hoa Kỳ, một công chứng viên không được phép đưa ra lời khuyên pháp lý trừ khi họ cũng là một luật sư được cấp phép. Để báo cáo gian lận hoặc khiếu nại về nhà cung cấp, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>hãy liên hệ 311</a>.",
     "section4Title": "Thêm tổ chức của bạn vào danh sách",
+    "p4": "Văn <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>phòng các vấn đề nhập cư</a> duy trì trang web này. Liên hệ với chúng tôi tại <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> nếu bạn cung cấp dịch vụ nhập cư và muốn được thêm vào danh sách này."
   },
   "Arts & culture": "Nghệ thuật & văn hóa",
   "Citizenship application help": "Trợ giúp về ứng dụng quốc tịch",
