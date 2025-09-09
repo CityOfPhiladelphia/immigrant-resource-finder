@@ -55,8 +55,8 @@ import pt1 from './tutorial/pt-1.png';
 import pt2 from './tutorial/pt-2.png';
 import ru1 from './tutorial/ru-1.png';
 import ru2 from './tutorial/ru-2.png';
-import al1 from './tutorial/sq-1.png';
-import al2 from './tutorial/sq-2.png';
+import sq1 from './tutorial/sq-1.png';
+import sq2 from './tutorial/sq-2.png';
 import sw1 from './tutorial/sw-1.png';
 import sw2 from './tutorial/sw-2.png';
 import vi1 from './tutorial/vi-1.png';
@@ -81,8 +81,8 @@ let $config = {
     'pt-2': pt2,
     'ru-1': ru1,
     'ru-2': ru2,
-    'al-1': al1,
-    'al-2': al2,
+    'sq-1': sq1,
+    'sq-2': sq2,
     'sw-1': sw1,
     'sw-2': sw2,
     'vi-1': vi1,
