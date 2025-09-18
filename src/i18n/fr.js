@@ -16,7 +16,9 @@ export default{
     "list": "Liste",
     "viewMap": "Afficher la carte",
     "viewList": "Afficher la liste",
-    "viewAccessible": "Afficher la liste accessible des emplacements des sites"
+    "viewAccessible": "Afficher la liste accessible des emplacements des sites",
+    "tutorial1": "Tutoriel 1",
+    "tutorial2": "Tutoriel 2"
   },
   "introPage": {
     "section1Title": "Trouvez des services et de l'assistance près de chez vous",

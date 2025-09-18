@@ -16,7 +16,9 @@ export default{
     "list": "Lis",
     "viewMap": "Gade kat jeyografik la",
     "viewList": "Gade lis",
-    "viewAccessible": "Gade lis kote sit ki aksesib yo"
+    "viewAccessible": "Gade lis kote sit ki aksesib yo",
+    "tutorial1": "Tutorial 1",
+    "tutorial2": "Tutorial 2"
   },
   "introPage": {
     "section1Title": "Jwenn sèvis ak sipò toupre ou",

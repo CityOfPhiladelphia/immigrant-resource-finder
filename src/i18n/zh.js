@@ -16,7 +16,9 @@ export default{
     "list": "清单",
     "viewMap": "查看地图",
     "viewList": "查看列表",
-    "viewAccessible": "查看机构地点列表"
+    "viewAccessible": "查看机构地点列表",
+    "tutorial1": "教程 1",
+    "tutorial2": "教程 2"
   },
   "introPage": {
     "section1Title": "查找您附近的服务和支持",
