@@ -1,15 +1,15 @@
 
-import en from './en-us';
-import es from './es-us';
-import ch from './zh-cn';
-import vi from './vi-vn';
-import ru from './ru-ru';
-import fr from './fr-fr';
-import ar from './ar-eg';
-import sq from './sq-al';
-import ht from './fr-ht';
-import sw from './sw-ke';
-import pt from './pt-br';
+import en from './en';
+import es from './es';
+import ch from './zh';
+import vi from './vi';
+import ru from './ru';
+import fr from './fr';
+import ar from './ar';
+import sq from './sq';
+import ht from './ht';
+import sw from './sw';
+import pt from './pt';
 
 let i18n = {
   i18n: {
