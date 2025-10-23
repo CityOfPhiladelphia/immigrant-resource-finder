@@ -2,10 +2,10 @@
 
 
 // use these if running off unlinked package
-// import { useMainStore } from '@phila/pinboard';
+import { useMainStore } from '@phila/pinboard';
 // OR
 // use this if running off linked package
-import { useMainStore } from '../../node_modules/@phila/pinboard/src/stores/MainStore.js';
+// import { useMainStore } from '../../node_modules/@phila/pinboard/src/stores/MainStore.js';
 import { onMounted } from 'vue';
 
 const MainStore = useMainStore();
