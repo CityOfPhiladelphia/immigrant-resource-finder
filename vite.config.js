@@ -4,6 +4,7 @@ import { defineConfig, searchForWorkspaceRoot, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import AutoImport from 'unplugin-auto-import/vite'
+import Inspect from 'vite-plugin-inspect'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
@@ -29,6 +30,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       vue(),
       vueDevTools(),
+      Inspect(),
       AutoImport({
         imports: [
           'vue',
@@ -46,7 +48,8 @@ export default defineConfig(({ mode }) => {
     base: env.VITE_PUBLICPATH,
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url))
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+        '@pinboard': env.VITE_LINKED ? fileURLToPath(new URL('./node_modules/@phila/pinboard/src/main.js', import.meta.url)) : '@phila/pinboard',
       }
     },
     optimizeDeps: {

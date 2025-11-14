@@ -13,7 +13,7 @@ if (isMac()) {
 console.log('window.location:', window.location);
 
 // Font Awesome Icons
-import { library } from '@fortawesome/fontawesome-svg-core';
+import { config, library } from '@fortawesome/fontawesome-svg-core';
 import { faAngleDown as farAngleDown } from '@fortawesome/pro-regular-svg-icons';
 import { faAngleUp as farAngleUp } from '@fortawesome/pro-regular-svg-icons';
 import { faTimes as farTimes } from '@fortawesome/pro-regular-svg-icons';
@@ -23,16 +23,10 @@ import { faEnvelope as farEnvelope } from '@fortawesome/pro-regular-svg-icons';
 
 library.add(farAngleDown, farAngleUp, farTimes, farPlus, farMinus, farEnvelope);
 
-// use these if running off unlinked package
 import '../node_modules/@phila/pinboard/dist/index.css';
-import pinboard from '@phila/pinboard';
+import pinboard from '@pinboard';
 
-// OR
-// use this if running off linked package
-// import pinboard from '../../vue3-pinboard/';
-// import pinboard from '../node_modules/@phila/pinboard/src/main.js';
-
-
+console.log('pinboard:', pinboard);
 
 // data-sources
 import immigrant from './data-sources/immigrant';
