@@ -35,7 +35,7 @@ export default{
     "p3_1": "此处列出的许多合作伙伴都<a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>提供免费安全的法律服务。</a>",
     "p3_2": "当心利用客户优势的无牌移民服务提供商。在美国，除非公证人也是持牌律师，否则不允许提供法律咨询。要举报欺诈行为或投诉提供商，<a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>请联系 311</a>。",
     "section4Title": "将您的组织添加到列表中",
-    "p4": "该网站由移民事务<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>办公室</a>维护。如果您提供移民服务并希望被添加到此列表中，请<a target='_blank' href='mailto:OIA{'@'}phila.gov'>通过 OIA{'@'}phila.gov</a> 联系我们。"
+    "p4": "该网站由移民事务<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>办公室</a>维护。如果您提供移民服务并希望被添加到此列表中，请<a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>通过 WelcomingNetwork{'@'}phila.gov</a> 联系我们。"
   },
   "Arts & culture": "艺术与文化",
   "Citizenship application help": "公民身份申请帮助",

@@ -35,7 +35,7 @@ export default{
     "p3_1": "Washirika wetu wengi walioorodheshwa hapa hutoa <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>free, safe legal services.</a>",
     "p3_2": "Jihadhari na watoa huduma ya uhamiaji wasio na leseni ambao hutumia wateja wao vibaya. Nchini Marekani, mwanasheria wa kiraia haruhusiwi kutoa ushauri wa kisheria isipokuwa pia wawe ni wanasheria walio na leseni. Ili kuripoti udanganyifu au lalamishi kuhusu mtoa huduma, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contact 311</a>.",
     "section4Title": "Kuongeza shirika lako kwenye orodha",
-    "p4": "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> hudumisha tovuti hii. Wasiliana nasi kupitia <a target='_blank' href='mailto: OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> iwapo huwa unatoa huduma za uhamiaji na ungependa kuongezwa kwenye orodha hii."
+    "p4": "<a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> hudumisha tovuti hii. Wasiliana nasi kupitia <a target='_blank' href='mailto: WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> iwapo huwa unatoa huduma za uhamiaji na ungependa kuongezwa kwenye orodha hii."
   },
   "Arts & culture": "Sanaa na utamaduni",
   "Citizenship application help": "Usaidizi katika kutuma ombi la kupata uraia",

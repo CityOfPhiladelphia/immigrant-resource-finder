@@ -35,7 +35,7 @@ export default{
     "p3_1": "Muitos dos nossos parceiros listados aqui fornecem <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>serviços jurídicos gratuitos e seguros.</a>",
     "p3_2": "Esteja alerta para prestadores de serviços de imigração não licenciados que tiram vantagem de seus clientes. Nos Estados Unidos, tabeliões não têm autorização para darem aconselhamento jurídico, a menos que também sejam advogados credenciados. Para denunciar uma fraude ou apresentar queixa sobre um prestador, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>entre em contato com 311</a>.",
     "section4Title": "Como adicionar a sua organização à lista",
-    "p4": "O <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Gabinete de Assuntos de Imigração (OIA)</a> mantém este site. Entre em contato conosco por meio do <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> se você oferece serviços para imigrantes e gostaria de fazer parte desta lista."
+    "p4": "O <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Gabinete de Assuntos de Imigração (WelcomingNetwork)</a> mantém este site. Entre em contato conosco por meio do <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> se você oferece serviços para imigrantes e gostaria de fazer parte desta lista."
   },
   "Arts & culture": "Arte e cultura",
   "Citizenship application help": "Assistência para a solicitação de cidadania",

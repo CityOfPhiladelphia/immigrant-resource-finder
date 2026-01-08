@@ -35,7 +35,7 @@ export default{
     "p3_1": "يقدّم العديد من شركائنا المدرجين هنا <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>خدمات قانونية آمنة ومجانية.</a>",
     "p3_2": "احذر من مقدمي خدمات الهجرة غير المرخصين الذين يستغلون عملاءهم. في الولايات المتحدة، لا يُسمح لكاتب العدل بتقديم مشورة قانونية ما لم يكن أيضًا محاميًا مرخّصًا. للإبلاغ عن عملية احتيال أو تقديم شكوى ضد مقدم خدمة, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'> اتصل على الرقم 311</a>.",
     "section4Title": "إضافة منظمتك إلى القائمة",
-    "p4": "يتولى <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>مكتب شؤون المهاجرين</a>  إدارة هذا الموقع. يرجى التواصل معنا عبر <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> إذا كنت تقدم خدمات للمهاجرين وترغب في إضافتك إلى هذه القائمة."
+    "p4": "يتولى <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>مكتب شؤون المهاجرين</a>  إدارة هذا الموقع. يرجى التواصل معنا عبر <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> إذا كنت تقدم خدمات للمهاجرين وترغب في إضافتك إلى هذه القائمة."
   },
   "Arts & culture": "الفنون والثقافة",
   "Citizenship application help": "المساعدة في تقديم طلبات الحصول على الجنسية",
