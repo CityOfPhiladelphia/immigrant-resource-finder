@@ -35,7 +35,7 @@ export default{
     "p3_1": "Anpil nan patnè nou yo ki nan lis la a bay <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>sèvis legal gratis, san danje.</a>",
     "p3_2": "Fè atansyon ak founisè sèvis imigrasyon ki pa gen lisans k ap pwofite kliyan yo. Ozetazini, yon notè pa gen dwa bay konsèy legal sof si yo se yon avoka ki gen lisans tou. Pou rapòte fwod oswa pote plent sou yon founisè, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>kontakte 311</a>.",
     "section4Title": "Ajoute òganizasyon w nan lis la",
-    "p4": "The <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Biwo Afè Imigran yo</a> opere sit entènèt sa a. Kontakte nou nan <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> si ou ofri sèvis imigran epi ou ta renmen ajoute nan lis sa a."
+    "p4": "The <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Biwo Afè Imigran yo</a> opere sit entènèt sa a. Kontakte nou nan <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> si ou ofri sèvis imigran epi ou ta renmen ajoute nan lis sa a."
   },
   "Arts & culture": "Atizay ak Kilti",
   "Citizenship application help": "Èd aplikasyon pou sitwayènte",
