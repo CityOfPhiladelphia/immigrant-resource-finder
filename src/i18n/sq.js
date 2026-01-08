@@ -35,7 +35,7 @@ export default{
     "p3_1": "Shumica e partnerëve tanë të renditur këtu ofrojnë <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>shërbime ligjore të sigurta dhe pa pagesë.</a>",
     "p3_2": "Kini kujdes nga ofruesit e palicencuar të shërbimeve të imigracionit që përfitojnë nga klientët e tyre. Në Shtetet e Bashkuara, një noteri nuk i lejohet të japë këshillë ligjore, përveçse nëse është edhe avokat i licencuar. Për të raportuar rast mashtrimi ose për të ankimuar një ofrues, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>kontaktoni numrin 311</a>.",
     "section4Title": "Shtimi i organizatës suaj në listë",
-    "p4": "Kjo faqe interneti mirëmbahet nga <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Zyra për Çështjet e Imigrantëve</a>. Na kontaktoni në <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> nëse ofroni shërbime për imigrantët dhe dëshironi t'ju shtojmë në këtë listë."
+    "p4": "Kjo faqe interneti mirëmbahet nga <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Zyra për Çështjet e Imigrantëve</a>. Na kontaktoni në <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> nëse ofroni shërbime për imigrantët dhe dëshironi t'ju shtojmë në këtë listë."
   },
   "Arts & culture": "Arte dhe kulturë",
   "Citizenship application help": "Ndihmë me aplikimin për shtetësi",

@@ -35,7 +35,7 @@ export default{
     "p3_1": "Many of our partners listed here provide <a href='https://www.phila.gov/oia/resource-finder/?services=Legal%20services'>free, safe legal services.</a>",
     "p3_2": "Beware of unlicensed immigration service providers who take advantage of their customers. In the United States, a notary is not allowed to give legal advice unless they are also a licensed attorney. To report fraud or complain about a provider, <a target='_blank' href='https://www.phila.gov/services/property-lots-housing/submit-a-service-request-with-311/'>contact 311</a>.",
     "section4Title": "Adding your organization to the list",
-    "p4": "The <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> maintains this website. Contact us at <a target='_blank' href='mailto:OIA{'@'}phila.gov'>OIA{'@'}phila.gov</a> if you offer immigrant services and would like to be added to this list."
+    "p4": "The <a target='_blank' href='https://www.phila.gov/departments/office-of-immigrant-affairs/'>Office of Immigrant Affairs</a> maintains this website. Contact us at <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> if you offer immigrant services and would like to be added to this list."
   },
   "Arts & culture": "Arts & culture",
   "Citizenship application help": "Citizenship application help",
