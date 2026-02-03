@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Encuentre servicios y asistencia cerca de usted",
-    "p0": "Filadelfia tiene muchos recursos para inmigrantes y refugiados. Puedes obtener ayuda con asuntos legales, asistir a eventos culturales, inscribirte en clases de inglés y más. Usa esta herramienta para encontrar organizaciones cercanas a ti.",
+    "p0": "Filadelfia tiene muchos recursos para inmigrantes y refugiados. Puedes obtener ayuda con asuntos legales, asistir a eventos culturales, inscribirte en clases de inglés y más. Usa esta herramienta para encontrar organizaciones cercanas a ti. Póngase en contacto con WelcomingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov para recibir comentarios.",
     "p1": "Para encontrar recursos para inmigrantes y refugiados:",
     "ul1": {
       "li": "Filtra por los servicios que estás buscando.",

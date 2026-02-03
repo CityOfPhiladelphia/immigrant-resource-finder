@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Jwenn sèvis ak sipò toupre ou",
-    "p0": "Philadelphia gen anpil resous pou imigran ak refijye. Ou ka jwenn èd ak pwoblèm legal, ale nan evènman kiltirèl, enskri pou klas angle, ak plis ankò. Sèvi ak zouti sa a pou jwenn òganizasyon ki toupre w.",
+    "p0": "Philadelphia gen anpil resous pou imigran yo ak refijye yo. Ou ka jwenn èd ak pwoblèm legal, ale nan evènman kiltirèl, siyen pou klas angle, ak plis ankò. Sèvi ak zouti sa a pou jwenn òganizasyon tou pre ou. ContactwelComingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov pou fidbak.",
     "p1": "Pou jwenn resous imigran ak refijye:",
     "ul1": {
       "li": "Filtre atravè sèvis w ap chèche yo.",

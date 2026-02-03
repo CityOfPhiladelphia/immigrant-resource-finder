@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Find services and support near you",
-    "p0": "Philadelphia has many resources for immigrants and refugees. You can get help with legal issues, attend cultural events, sign up for English classes, and more.  Use this tool to find organizations near you.",
+    "p0": "Philadelphia has many resources for immigrants and refugees. You can get help with legal issues, attend cultural events, sign up for English classes, and more. Use this tool to find organizations near you. Contact <a target='_blank' href='mailto:WelcomingNetwork{'@'}phila.gov'>WelcomingNetwork{'@'}phila.gov</a> for feedback.",
     "p1": "To find immigrant and refugee resources:",
     "ul1": {
       "li": "Filter by the services you're looking for.",

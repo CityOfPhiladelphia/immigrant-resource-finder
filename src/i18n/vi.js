@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Tìm dịch vụ và hỗ trợ gần bạn",
-    "p0": "Philadelphia có nhiều nguồn lực cho người nhập cư và người tị nạn. Bạn có thể nhận trợ giúp về các vấn đề pháp lý, tham dự các sự kiện văn hóa, đăng ký các lớp học tiếng Anh và hơn thế nữa. Sử dụng công cụ này để tìm các tổ chức gần bạn.",
+    "p0": "Philadelphia có nhiều nguồn lực cho người nhập cư và người tị nạn. Bạn có thể nhận trợ giúp về các vấn đề pháp lý, tham dự các sự kiện văn hóa, đăng ký các lớp học tiếng Anh và hơn thế nữa. Sử dụng công cụ này để tìm các tổ chức gần bạn. ContactEvercomingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov để được phản hồi.",
     "p1": "Để tìm nguồn tài nguyên nhập cư và tị nạn:",
     "ul1": {
       "li": "Lọc theo các dịch vụ bạn đang tìm kiếm.",

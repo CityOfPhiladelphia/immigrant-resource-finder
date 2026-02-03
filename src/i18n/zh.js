@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "查找您附近的服务和支持",
-    "p0": "费城为移民和难民提供了许多资源。您可以获得有关法律问题的帮助，参加文化活动，报名参加英语课程等。使用此工具查找您附近的组织。",
+    "p0": "费城为移民和难民提供了许多资源。您可以获得有关法律问题的帮助，参加文化活动，报名参加英语课程等。使用此工具查找您附近的组织。如需反馈，请联系 WelcomingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov。",
     "p1": "寻找移民和难民资源：",
     "ul1": {
       "li": "按您正在寻找的服务进行筛选。",
