@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Pata huduma na msaada ulio karibu nawe",
-    "p0": "Philadelphia ina rasilimali nyingi za wahamiaji na wakimbizi. Unaweza kupata msaada katika masuala ya kisheria, kuhudhuria hafla za kitamaduni, kujisajili kwenye masomo ya Kiingereza, na zaidi. Tumia zana hii kupata mashirika yaliyo karibu nawe.",
+    "p0": "Philadelphia ina rasilimali nyingi kwa wahamiaji na wakimbizi. Unaweza kupata msaada na masuala ya kisheria, kuhudhuria hafla za kitamaduni, kujisajili kwa madarasa ya Kiingereza, na zaidi. Tumia zana hii kupata mashirika karibu nawe. ContactwelComingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov kwa maoni.",
     "p1": "Ili kupata rasilimali za wahamiaji na wakimbizi:",
     "ul1": {
       "li": "Chuja kwa kutumia huduma unazotafuta.",

@@ -22,7 +22,7 @@ export default{
   },
   "introPage": {
     "section1Title": "Gjeni shërbime dhe mbështetje pranë jush",
-    "p0": "Filadelfia ka shumë burime për imigrantët dhe refugjatët. Mund të përfitoni ndihmë për çështje ligjore, të merrni pjesë në ngjarje kulturore, të regjistroheni në kurse të gjuhës angleze dhe më shumë. Përdoreni këtë mjet për të gjetur organizata pranë jush.",
+    "p0": "Filadelfia ka shumë burime për emigrantët dhe refugjatët. Ju mund të merrni ndihmë për çështje ligjore, të merrni pjesë në ngjarje kulturore, të regjistroheni në klasat e anglishtes dhe më shumë. Përdorni këtë mjet për të gjetur organizata pranë jush. ContactwelComingNetwork <a target='_blank' href='mailto:WelcomingNetwork {'@'} phila.gov'> {'@'}</a> phila.gov për reagime.",
     "p1": "Për të gjetur burime për imigrantët dhe refugjatët:",
     "ul1": {
       "li": "Filtroni sipas shërbimeve që po kërkoni.",
