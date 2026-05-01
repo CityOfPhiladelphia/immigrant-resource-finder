@@ -234,7 +234,7 @@ let $config = {
     },
     {
       type: "native",
-      href: "https://www.phila.gov/feedback/",
+      href: "https://phila.formstack.com/forms/welcoming_community_resource_finder_feedback",
       attrs: {
         target: "_blank",
       },
