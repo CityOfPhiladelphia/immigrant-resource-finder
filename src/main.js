@@ -95,9 +95,6 @@ let $config = {
     type: 'immigrant',
     subtitle: 'i18n',
   },
-  gtag: {
-    category: 'rf-oia',
-  },
   // printView: false,
   allowZipcodeSearch: true,
   allowPrint: true,
