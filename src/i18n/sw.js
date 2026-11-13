@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "Usaidizi wa mwathirika/shahidi",
   "Citizenship classes": "Klasat za uraia",
   "Tax preparation": "Kuandaa ushuru",
-  "Education": "Elimu"
+  "Education": "Elimu",
+  "Health": "Afya",
+  "Mental Health Services": "Huduma za afya ya akili",
+  "Social Services": "Huduma za kijamii",
+  "Translation and interpretation services": "Huduma za tafsiri na ukalimani",
+  "Arabic classes": "Masomo ya Kiarabu",
+  "Dental Services": "Huduma za meno",
+  "Food pantry": "Benki ya chakula",
+  "Japanese Classes": "Masomo ya Kijapani"
 }

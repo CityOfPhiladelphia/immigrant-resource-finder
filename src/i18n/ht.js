@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "Sipò pou viktim/temwen",
   "Citizenship classes": "Klas sitwayènte",
   "Tax preparation": "Preparasyon taks",
-  "Education": "Edikasyon"
+  "Education": "Edikasyon",
+  "Health": "Sante",
+  "Mental Health Services": "Sèvis sante mantal",
+  "Social Services": "Sèvis sosyal",
+  "Translation and interpretation services": "Sèvis tradiksyon ak entèpretasyon",
+  "Arabic classes": "Klas Arab",
+  "Dental Services": "Sèvis dantè",
+  "Food pantry": "Bank manje",
+  "Japanese Classes": "Klas Japonè"
 }

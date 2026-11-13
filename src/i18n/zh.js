@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "受害者/证人支持",
   "Citizenship classes": "公民身份课程",
   "Tax preparation": "税务准备",
-  "Education": "教育"
+  "Education": "教育",
+  "Health": "健康",
+  "Mental Health Services": "心理健康服务",
+  "Social Services": "社会服务",
+  "Translation and interpretation services": "笔译和口译服务",
+  "Arabic classes": "阿拉伯语课程",
+  "Dental Services": "牙科服务",
+  "Food pantry": "食品发放处",
+  "Japanese Classes": "日语课程"
 }
