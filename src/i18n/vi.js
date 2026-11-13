@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "Hỗ trợ nạn nhân/nhân chứng",
   "Citizenship classes": "Lớp học quốc tịch",
   "Tax preparation": "Chuẩn bị thuế",
-  "Education": "Giáo dục"
+  "Education": "Giáo dục",
+  "Health": "Sức khỏe",
+  "Mental Health Services": "Dịch vụ sức khỏe tâm thần",
+  "Social Services": "Dịch vụ xã hội",
+  "Translation and interpretation services": "Dịch vụ biên dịch và phiên dịch",
+  "Arabic classes": "Lớp học tiếng Ả Rập",
+  "Dental Services": "Dịch vụ nha khoa",
+  "Food pantry": "Nơi phát thực phẩm",
+  "Japanese Classes": "Lớp học tiếng Nhật"
 }

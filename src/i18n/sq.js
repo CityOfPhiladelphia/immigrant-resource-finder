@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "Mbështetje për viktimat/dëshmitarët",
   "Citizenship classes": "Klasat e qytetarisë",
   "Tax preparation": "Përgatitja e taksave",
-  "Education": "Arsimimi"
+  "Education": "Arsimimi",
+  "Health": "Shëndetësi",
+  "Mental Health Services": "Shërbime të shëndetit mendor",
+  "Social Services": "Shërbime sociale",
+  "Translation and interpretation services": "Shërbime përkthimi dhe interpretimi",
+  "Arabic classes": "Kurse të gjuhës arabe",
+  "Dental Services": "Shërbime dentare",
+  "Food pantry": "Bankë ushqimore",
+  "Japanese Classes": "Kurse të gjuhës japoneze"
 }

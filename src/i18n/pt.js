@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "Apoio a vítima/testemunha",
   "Citizenship classes": "Aulas de cidadania",
   "Tax preparation": "Preparação de impostos",
-  "Education": "Educação"
+  "Education": "Educação",
+  "Health": "Saúde",
+  "Mental Health Services": "Serviços de saúde mental",
+  "Social Services": "Serviços sociais",
+  "Translation and interpretation services": "Serviços de tradução e interpretação",
+  "Arabic classes": "Aulas de árabe",
+  "Dental Services": "Serviços odontológicos",
+  "Food pantry": "Banco de alimentos",
+  "Japanese Classes": "Aulas de japonês"
 }
