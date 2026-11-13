@@ -50,5 +50,13 @@ export default{
   "Victim/witness support": "دعم الضحايا/الشهود",
   "Citizenship classes": "فصول المواطنة",
   "Tax preparation": "إعداد الضرائب",
-  "Education": "التعليم"
+  "Education": "التعليم",
+  "Health": "الصحة",
+  "Mental Health Services": "خدمات الصحة النفسية",
+  "Social Services": "الخدمات الاجتماعية",
+  "Translation and interpretation services": "خدمات الترجمة التحريرية والفورية",
+  "Arabic classes": "دروس اللغة العربية",
+  "Dental Services": "خدمات طب الأسنان",
+  "Food pantry": "بنك الطعام",
+  "Japanese Classes": "دروس اللغة اليابانية"
 }
